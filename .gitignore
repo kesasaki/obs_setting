@@ -1,0 +1,13 @@
+# OBSの自動生成・一時ファイルを除外
+logs/
+crashes/
+plugin_config/*/cache/
+updates/
+**/*.json.bak
+**/*.bak
+**/*.v1
+
+# 機密情報（ストリームキー等）が含まれるファイルを除外
+**/service.json
+**/history.json
+**/streamEncoder.json
