@@ -1,0 +1,31 @@
+[
+    {
+        "display_name": "win-spout",
+        "enabled": true,
+        "encoders": [],
+        "id": "",
+        "module_name": "win-spout",
+        "outputs": [
+            "spout_output"
+        ],
+        "services": [],
+        "sources": [
+            "spout_capture",
+            "win_spout_filter"
+        ],
+        "version": ""
+    },
+    {
+        "display_name": "Freeze Filter",
+        "enabled": true,
+        "encoders": [],
+        "id": "",
+        "module_name": "freeze-filter",
+        "outputs": [],
+        "services": [],
+        "sources": [
+            "freeze_filter"
+        ],
+        "version": ""
+    }
+]
