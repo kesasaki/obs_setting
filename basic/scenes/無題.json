@@ -34,13 +34,11 @@
         "filters": [
             {
                 "prev_ver": 536870914,
-                "name": "ノイズ抑制",
-                "uuid": "4ce2e729-1d49-468b-8ab0-a30d21e7129d",
+                "name": "ノイズ抑制（ホワイトノイズ削除）",
+                "uuid": "5f05acf3-3230-4727-9946-06e6e86effeb",
                 "id": "noise_suppress_filter",
                 "versioned_id": "noise_suppress_filter_v2",
-                "settings": {
-                    "method": "rnnoise"
-                },
+                "settings": {},
                 "mixers": 255,
                 "sync": 0,
                 "flags": 0,
@@ -60,12 +58,12 @@
             },
             {
                 "prev_ver": 536870914,
-                "name": "ゲイン",
-                "uuid": "361adf74-5748-4bb3-810a-2fbd2beef842",
+                "name": "ゲイン（全体の音量を増幅する）",
+                "uuid": "4891321d-51b3-42f0-b309-7a3b7ac6f665",
                 "id": "gain_filter",
                 "versioned_id": "gain_filter",
                 "settings": {
-                    "db": 16.3
+                    "db": 3.5
                 },
                 "mixers": 255,
                 "sync": 0,
@@ -86,12 +84,68 @@
             },
             {
                 "prev_ver": 536870914,
-                "name": "コンプレッサー(音量を一定にする)",
-                "uuid": "6dadfb11-4dde-4b29-a110-47620671146c",
+                "name": "ノイズゲート（設定値より小さい音をカット）",
+                "uuid": "a05a4659-c4e3-40ac-8dac-93781ecbcfa3",
+                "id": "noise_gate_filter",
+                "versioned_id": "noise_gate_filter",
+                "settings": {},
+                "mixers": 255,
+                "sync": 0,
+                "flags": 0,
+                "volume": 1.0,
+                "balance": 0.5,
+                "enabled": true,
+                "muted": false,
+                "push-to-mute": false,
+                "push-to-mute-delay": 0,
+                "push-to-talk": false,
+                "push-to-talk-delay": 0,
+                "hotkeys": {},
+                "deinterlace_mode": 0,
+                "deinterlace_field_order": 0,
+                "monitoring_type": 0,
+                "private_settings": {}
+            },
+            {
+                "prev_ver": 536870914,
+                "name": "コンプレッサー（音量を一定にする）",
+                "uuid": "bc6bf81a-268f-41d0-9d4e-095eb7db8a5b",
                 "id": "compressor_filter",
                 "versioned_id": "compressor_filter",
                 "settings": {
-                    "attack_time": 3
+                    "ratio": 10.0,
+                    "threshold": -5.1,
+                    "attack_time": 1,
+                    "release_time": 41
+                },
+                "mixers": 255,
+                "sync": 0,
+                "flags": 0,
+                "volume": 1.0,
+                "balance": 0.5,
+                "enabled": true,
+                "muted": false,
+                "push-to-mute": false,
+                "push-to-mute-delay": 0,
+                "push-to-talk": false,
+                "push-to-talk-delay": 0,
+                "hotkeys": {},
+                "deinterlace_mode": 0,
+                "deinterlace_field_order": 0,
+                "monitoring_type": 0,
+                "private_settings": {}
+            },
+            {
+                "prev_ver": 536870914,
+                "name": "アップワードコンプレッサー（小さすぎる音を大きく）",
+                "uuid": "de3592b5-cb5d-4a5a-b94b-f16c08a8de69",
+                "id": "upward_compressor_filter",
+                "versioned_id": "upward_compressor_filter",
+                "settings": {
+                    "ratio": 0.6,
+                    "threshold": -10.0,
+                    "attack_time": 1,
+                    "release_time": 30
                 },
                 "mixers": 255,
                 "sync": 0,
