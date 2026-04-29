@@ -6,7 +6,7 @@
         "id": "wasapi_input_capture",
         "versioned_id": "wasapi_input_capture",
         "settings": {
-            "device_id": "{0.0.1.00000000}.{1ecd1894-e688-410d-8d5e-f45cc63f7a12}"
+            "device_id": "{0.0.1.00000000}.{5f7cbeca-7e08-4e63-8f65-184dbf0a9afb}"
         },
         "mixers": 255,
         "sync": 0,
@@ -14,7 +14,7 @@
         "volume": 0.9956955909729004,
         "balance": 0.5,
         "enabled": true,
-        "muted": true,
+        "muted": false,
         "push-to-mute": false,
         "push-to-mute-delay": 0,
         "push-to-talk": false,
