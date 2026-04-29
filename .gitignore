@@ -20,3 +20,4 @@ plugin_config/obs-websocket/config.json
 profiler_data/
 **/basic.ini
 user.ini
+global.ini
