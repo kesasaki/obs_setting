@@ -2,9 +2,8 @@
 logs/
 crashes/
 plugin_config/*/cache/
-# obs-browserはChromiumエンジンデータ。LocalPrefs.jsonのみ追跡
+# obs-browserはChromiumエンジンデータ（自動生成）。すべて除外
 plugin_config/obs-browser/*
-!plugin_config/obs-browser/LocalPrefs.json
 updates/
 **/*.json.bak
 **/*.bak
@@ -19,3 +18,5 @@ plugin_config/obs-localvocal/models/
 **/streamEncoder.json
 plugin_config/obs-websocket/config.json
 profiler_data/
+**/basic.ini
+user.ini
