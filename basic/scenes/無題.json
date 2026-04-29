@@ -1413,7 +1413,7 @@
             "volume": 1.0,
             "balance": 0.5,
             "enabled": true,
-            "muted": false,
+            "muted": true,
             "push-to-mute": false,
             "push-to-mute-delay": 0,
             "push-to-talk": false,
@@ -1684,7 +1684,7 @@
             "volume": 1.0,
             "balance": 0.5,
             "enabled": true,
-            "muted": false,
+            "muted": true,
             "push-to-mute": false,
             "push-to-mute-delay": 0,
             "push-to-talk": false,
@@ -34462,7 +34462,7 @@
                         "group_item_backup": true,
                         "pos": {
                             "x": 0.0,
-                            "y": -6.103515625e-5
+                            "y": -6.103515625e-05
                         },
                         "pos_rel": {
                             "x": -1.7777777910232544,
@@ -34572,7 +34572,7 @@
                         "group_item_backup": false,
                         "pos": {
                             "x": 0.0,
-                            "y": -6.103515625e-5
+                            "y": -6.103515625e-05
                         },
                         "pos_rel": {
                             "x": -1.7777777910232544,
@@ -40750,7 +40750,7 @@
             "volume": 1.0,
             "balance": 0.5,
             "enabled": true,
-            "muted": false,
+            "muted": true,
             "push-to-mute": false,
             "push-to-mute-delay": 0,
             "push-to-talk": false,
@@ -49613,7 +49613,7 @@
             "volume": 1.0,
             "balance": 0.5,
             "enabled": true,
-            "muted": false,
+            "muted": true,
             "push-to-mute": false,
             "push-to-mute-delay": 0,
             "push-to-talk": false,
@@ -49850,7 +49850,7 @@
             "volume": 1.0,
             "balance": 0.5,
             "enabled": true,
-            "muted": false,
+            "muted": true,
             "push-to-mute": false,
             "push-to-mute-delay": 0,
             "push-to-talk": false,
