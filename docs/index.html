@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>シナリオビューワー</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      background: transparent;
+      color: black;
+      font-family: "Hiragino Kaku Gothic ProN", "Meiryo", sans-serif;
+      padding: 16px;
+      user-select: none;
+    }
+
+    #viewer {
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+    }
+
+    #code {
+      font-size: 2em;
+      font-weight: bold;
+      letter-spacing: 0.05em;
+    }
+
+    #comment {
+      font-size: 1.4em;
+      white-space: pre-wrap;
+      line-height: 1.5;
+    }
+
+    #counter {
+      font-size: 0.9em;
+      opacity: 0.6;
+      margin-top: 4px;
+    }
+
+    #empty {
+      font-size: 1.2em;
+      opacity: 0.5;
+    }
+  </style>
+</head>
+<body>
+  <div id="viewer">
+    <div id="code"></div>
+    <div id="comment"></div>
+    <div id="counter"></div>
+    <div id="empty" style="display:none">シナリオがありません</div>
+  </div>
+
+  <script>
+    let scenarios = [];
+    let index = 0;
+
+    function render() {
+      const codeEl = document.getElementById('code');
+      const commentEl = document.getElementById('comment');
+      const counterEl = document.getElementById('counter');
+      const emptyEl = document.getElementById('empty');
+      const viewerEl = document.getElementById('viewer');
+
+      if (scenarios.length === 0) {
+        codeEl.style.display = 'none';
+        commentEl.style.display = 'none';
+        counterEl.style.display = 'none';
+        emptyEl.style.display = '';
+        return;
+      }
+
+      const s = scenarios[index];
+      codeEl.textContent = s.code;
+      commentEl.textContent = s.comment;
+      counterEl.textContent = `${index + 1} / ${scenarios.length}`;
+
+      codeEl.style.display = '';
+      commentEl.style.display = '';
+      counterEl.style.display = '';
+      emptyEl.style.display = 'none';
+    }
+
+    document.addEventListener('keydown', (e) => {
+      if (scenarios.length === 0) return;
+      if (e.key === 'ArrowRight' || e.key === 'ArrowDown') {
+        index = Math.min(index + 1, scenarios.length - 1);
+        render();
+      } else if (e.key === 'ArrowLeft' || e.key === 'ArrowUp') {
+        index = Math.max(index - 1, 0);
+        render();
+      }
+    });
+
+    fetch('scenarios.json')
+      .then(r => r.json())
+      .then(data => {
+        scenarios = data.scenarios || [];
+        render();
+      })
+      .catch(() => {
+        document.getElementById('empty').textContent = 'scenarios.json の読み込みに失敗しました';
+        document.getElementById('empty').style.display = '';
+      });
+  </script>
+</body>
+</html>
