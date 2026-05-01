@@ -47,6 +47,31 @@
       font-size: 1.2em;
       opacity: 0.5;
     }
+
+    #nav {
+      display: flex;
+      gap: 8px;
+      margin-top: 12px;
+    }
+
+    .nav-btn {
+      font-size: 1.2em;
+      padding: 6px 20px;
+      border: 2px solid rgba(0,0,0,0.3);
+      border-radius: 6px;
+      background: rgba(255,255,255,0.6);
+      color: black;
+      cursor: pointer;
+    }
+
+    .nav-btn:hover {
+      background: rgba(255,255,255,0.9);
+    }
+
+    .nav-btn:disabled {
+      opacity: 0.25;
+      cursor: default;
+    }
   </style>
 </head>
 <body>
@@ -55,23 +80,33 @@
     <div id="comment"></div>
     <div id="counter"></div>
     <div id="empty" style="display:none">シナリオがありません</div>
+    <div id="nav">
+      <button class="nav-btn" id="btn-prev" onclick="move(-1)">◀ 前へ</button>
+      <button class="nav-btn" id="btn-next" onclick="move(1)">次へ ▶</button>
+    </div>
   </div>
 
   <script>
     let scenarios = [];
     let index = 0;
 
+    function move(dir) {
+      index = Math.max(0, Math.min(index + dir, scenarios.length - 1));
+      render();
+    }
+
     function render() {
       const codeEl = document.getElementById('code');
       const commentEl = document.getElementById('comment');
       const counterEl = document.getElementById('counter');
       const emptyEl = document.getElementById('empty');
-      const viewerEl = document.getElementById('viewer');
+      const navEl = document.getElementById('nav');
 
       if (scenarios.length === 0) {
         codeEl.style.display = 'none';
         commentEl.style.display = 'none';
         counterEl.style.display = 'none';
+        navEl.style.display = 'none';
         emptyEl.style.display = '';
         return;
       }
@@ -80,22 +115,20 @@
       codeEl.textContent = s.code;
       commentEl.textContent = s.comment;
       counterEl.textContent = `${index + 1} / ${scenarios.length}`;
+      document.getElementById('btn-prev').disabled = index === 0;
+      document.getElementById('btn-next').disabled = index === scenarios.length - 1;
 
       codeEl.style.display = '';
       commentEl.style.display = '';
       counterEl.style.display = '';
+      navEl.style.display = '';
       emptyEl.style.display = 'none';
     }
 
     document.addEventListener('keydown', (e) => {
       if (scenarios.length === 0) return;
-      if (e.key === 'ArrowRight' || e.key === 'ArrowDown') {
-        index = Math.min(index + 1, scenarios.length - 1);
-        render();
-      } else if (e.key === 'ArrowLeft' || e.key === 'ArrowUp') {
-        index = Math.max(index - 1, 0);
-        render();
-      }
+      if (e.key === 'ArrowRight' || e.key === 'ArrowDown') move(1);
+      else if (e.key === 'ArrowLeft' || e.key === 'ArrowUp') move(-1);
     });
 
     fetch('scenarios.json')
