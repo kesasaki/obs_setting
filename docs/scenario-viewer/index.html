@@ -89,10 +89,11 @@
     #editor-header {
       display: flex;
       align-items: center;
-      gap: 12px;
+      gap: 8px;
       padding: 12px 16px;
       border-bottom: 1px solid #ddd;
       flex-shrink: 0;
+      flex-wrap: wrap;
     }
 
     #editor-header h2 { font-size: 1.1em; flex: 1; }
@@ -206,9 +207,12 @@
   <div id="editor">
     <div id="editor-header">
       <h2>シナリオ編集</h2>
+      <button class="hdr-btn" onclick="importCSV()">CSVインポート</button>
+      <button class="hdr-btn" onclick="exportCSV()">CSVエクスポート</button>
       <button class="hdr-btn" onclick="resetToDefault()">初期データに戻す</button>
       <button class="hdr-btn primary" onclick="saveAndClose()">保存して閉じる</button>
     </div>
+    <input type="file" id="csv-input" accept=".csv" style="display:none" onchange="handleCSVImport(this)">
     <div id="scenario-list"></div>
     <button id="add-btn" onclick="addScenario()">＋ シナリオを追加</button>
   </div>
@@ -313,6 +317,71 @@
 
     function escHtml(s) {
       return (s || '').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
+    }
+
+    // ---- CSV ----
+    function csvField(s) { return '"' + (s || '').replace(/"/g, '""') + '"'; }
+
+    function exportCSV() {
+      const lines = ['code,comment'];
+      scenarios.forEach(s => lines.push(`${csvField(s.code)},${csvField(s.comment)}`));
+      const blob = new Blob(['﻿' + lines.join('\r\n')], { type: 'text/csv;charset=utf-8;' });
+      const url = URL.createObjectURL(blob);
+      const a = document.createElement('a');
+      a.href = url; a.download = 'scenarios.csv'; a.click();
+      URL.revokeObjectURL(url);
+    }
+
+    function importCSV() { document.getElementById('csv-input').click(); }
+
+    function handleCSVImport(input) {
+      const file = input.files[0];
+      if (!file) return;
+      input.value = '';
+      const reader = new FileReader();
+      reader.onload = (e) => {
+        let text = e.target.result;
+        if (text.charCodeAt(0) === 0xFEFF) text = text.slice(1);
+        const rows = parseCSV(text).slice(1); // skip header
+        const imported = rows
+          .filter(r => r.length >= 1 && (r[0] || r[1]))
+          .map(r => ({ code: r[0] || '', comment: r[1] || '' }));
+        if (imported.length === 0) { alert('インポートできるデータがありませんでした'); return; }
+        if (!confirm(`${imported.length}件をインポートします。現在のデータは置き換えられます。`)) return;
+        scenarios = imported;
+        buildEditorList();
+      };
+      reader.readAsText(file, 'UTF-8');
+    }
+
+    function parseCSV(text) {
+      const rows = [];
+      let i = 0;
+      const n = text.length;
+      while (i < n) {
+        const row = [];
+        while (true) {
+          let field = '';
+          if (i < n && text[i] === '"') {
+            i++;
+            while (i < n) {
+              if (text[i] === '"') {
+                if (i + 1 < n && text[i + 1] === '"') { field += '"'; i += 2; }
+                else { i++; break; }
+              } else { field += text[i++]; }
+            }
+          } else {
+            while (i < n && text[i] !== ',' && text[i] !== '\r' && text[i] !== '\n') field += text[i++];
+          }
+          row.push(field);
+          if (i < n && text[i] === ',') { i++; continue; }
+          if (i < n && text[i] === '\r') i++;
+          if (i < n && text[i] === '\n') i++;
+          break;
+        }
+        if (row.length > 1 || row[0] !== '') rows.push(row);
+      }
+      return rows;
     }
 
     // ---- 初期化 ----
