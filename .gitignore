@@ -21,3 +21,10 @@ profiler_data/
 **/basic.ini
 user.ini
 global.ini
+
+# Claude Code の自動生成ファイル
+.claude/worktrees/
+.claude/plans/
+.claude/memory/
+.claude/settings.local.json
+**/.sentinel
