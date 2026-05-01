@@ -2,11 +2,75 @@
   "scenarios": [
     {
       "code": "SLCH-HLC1-18EY-HAMU",
-      "comment": "WAVE1シンプルクソ湧き\n(はーにゃん様)"
+      "comment": "WAVE1シンプルクソ湧き(はーにゃん様)"
+    },
+    {
+      "code": "SQ1Q-QGPH-X8GF-A277",
+      "comment": "WAVE2 壊滅的な編成事故\n(はーにゃん様)"
+    },
+    {
+      "code": "S2LF-R8NF-DE9K-7G1H",
+      "comment": "タワー地獄(はーにゃん様)"
+    },
+    {
+      "code": "SWV9-5WA3-Q9L7-2R0C",
+      "comment": "挑戦状Part3(はーにゃん様)"
+    },
+    {
+      "code": "SJYA-H1WE-NR1F-6289",
+      "comment": "武器が細い細い(はーにゃん様)"
+    },
+    {
+      "code": "SGUU-KQ82-0XXP-V5MT",
+      "comment": "WAVE3の編成(はーにゃん様)"
+    },
+    {
+      "code": "SW4N-TNLB-8ADD-QMFK",
+      "comment": "シンプル鬼クソ湧き(はーにゃん様)"
+    },
+    {
+      "code": "SYCG-6NWL-H2YE-QMR8",
+      "comment": "(しいかみすず様)"
+    },
+    {
+      "code": "SFGL-31R9-LF31-FFSR",
+      "comment": "(さけおおかみ様)"
+    },
+    {
+      "code": "S14N-56G1-XXST-GV74",
+      "comment": "(さけおおかみ様)"
+    },
+    {
+      "code": "SMHJ-F9QR-9XLV-EHE9",
+      "comment": "(しゅんちゃん様)"
+    },
+    {
+      "code": "SLGY-1LA1-SWXP-PANG",
+      "comment": "(ちゃる)"
+    },
+    {
+      "code": "S3P0-9L00-G8UG-YCNG",
+      "comment": "(ちゃる)"
+    },
+    {
+      "code": "S4C5-KLX2-1TNG-C66B",
+      "comment": "(ちゃる)"
+    },
+    {
+      "code": "S868-5LMA-6R8K-S9JS",
+      "comment": "(ちゃる)"
+    },
+    {
+      "code": "SJQG-XU9L-SF5Y-C2AY",
+      "comment": "(ちゃる)"
+    },
+    {
+      "code": "SUE1-XJSH-HPSL-T4X0",
+      "comment": "(ちゃる)"
     },
     {
       "code": "SC7L-WV7T-W0NY-5VRL",
-      "comment": "ゴ〇湧き！\n(さくら様)"
+      "comment": "ゴ〇湧き！(さくら様)"
     }
   ]
 }
