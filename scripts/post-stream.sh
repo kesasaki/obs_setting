@@ -9,8 +9,12 @@ git add basic/scenes/無題.json
 git commit -m "$TITLE"
 git push origin "$BRANCH"
 
-gh pr create --title "$TITLE" --body "配信後の自動PR" --base main
-gh pr merge --merge --delete-branch --yes
+PR_URL=$(gh pr create --title "$TITLE" --body "配信後の自動PR" --base main)
+PR_NUMBER=$(echo "$PR_URL" | grep -o '[0-9]*$')
+
+REPO=$(gh repo view --json nameWithOwner -q .nameWithOwner)
+gh api "repos/$REPO/pulls/$PR_NUMBER/merge" -X PUT -f merge_method=merge -f commit_title="$TITLE"
+gh api "repos/$REPO/git/refs/heads/$BRANCH" -X DELETE
 
 git checkout main
 git pull origin main
