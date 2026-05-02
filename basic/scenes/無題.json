@@ -205,8 +205,8 @@
                         "id": 66,
                         "group_item_backup": false,
                         "pos": {
-                            "x": 0.0,
-                            "y": 0.0
+                            "x": 960.0,
+                            "y": 540.0
                         },
                         "pos_rel": {
                             "x": 0.0,
@@ -792,7 +792,7 @@
                     {
                         "name": "サモラン参加型用",
                         "source_uuid": "843091ef-ebb1-4133-858d-716610ffdab7",
-                        "visible": false,
+                        "visible": true,
                         "locked": false,
                         "rot": 0.0,
                         "scale_ref": {
@@ -957,7 +957,7 @@
                     {
                         "name": "けぼこミニ絵",
                         "source_uuid": "3ae24353-f988-49fb-8bb5-a66a0a7473d5",
-                        "visible": false,
+                        "visible": true,
                         "locked": false,
                         "rot": 0.0,
                         "scale_ref": {
@@ -1244,6 +1244,8 @@
             "push-to-talk-delay": 0,
             "hotkeys": {
                 "OBSBasic.SelectScene": [],
+                "libobs.show_scene_item.66": [],
+                "libobs.hide_scene_item.66": [],
                 "libobs.show_scene_item.4": [],
                 "libobs.hide_scene_item.4": [],
                 "libobs.show_scene_item.14": [],
@@ -1774,7 +1776,7 @@
             "mixers": 255,
             "sync": 0,
             "flags": 0,
-            "volume": 0.562979519367218,
+            "volume": 0.4159839153289795,
             "balance": 0.5,
             "enabled": true,
             "muted": false,
@@ -1856,8 +1858,8 @@
                         "id": 96,
                         "group_item_backup": false,
                         "pos": {
-                            "x": 0.0,
-                            "y": 0.0
+                            "x": 960.0,
+                            "y": 540.0
                         },
                         "pos_rel": {
                             "x": 0.0,
@@ -3060,6 +3062,8 @@
             "push-to-talk-delay": 0,
             "hotkeys": {
                 "OBSBasic.SelectScene": [],
+                "libobs.show_scene_item.96": [],
+                "libobs.hide_scene_item.96": [],
                 "libobs.show_scene_item.4": [],
                 "libobs.hide_scene_item.4": [],
                 "libobs.show_scene_item.16": [],
@@ -5163,8 +5167,8 @@
                         "id": 57,
                         "group_item_backup": false,
                         "pos": {
-                            "x": 0.0,
-                            "y": 0.0
+                            "x": 960.0,
+                            "y": 540.0
                         },
                         "pos_rel": {
                             "x": 0.0,
@@ -6259,6 +6263,8 @@
             "push-to-talk-delay": 0,
             "hotkeys": {
                 "OBSBasic.SelectScene": [],
+                "libobs.show_scene_item.57": [],
+                "libobs.hide_scene_item.57": [],
                 "libobs.show_scene_item.1": [],
                 "libobs.hide_scene_item.1": [],
                 "libobs.show_scene_item.17": [],
@@ -6437,8 +6443,8 @@
                         "id": 100,
                         "group_item_backup": false,
                         "pos": {
-                            "x": 0.0,
-                            "y": 0.0
+                            "x": 960.0,
+                            "y": 540.0
                         },
                         "pos_rel": {
                             "x": 0.0,
@@ -6859,7 +6865,7 @@
                     {
                         "name": "縛りリスト",
                         "source_uuid": "54420dcb-b951-48d7-ac77-597e2813ce2c",
-                        "visible": true,
+                        "visible": false,
                         "locked": false,
                         "rot": 0.0,
                         "scale_ref": {
@@ -7409,7 +7415,7 @@
                     {
                         "name": "わんコメセットリスト",
                         "source_uuid": "b05c0ae0-6bf3-4752-9a29-be5db64a4869",
-                        "visible": true,
+                        "visible": false,
                         "locked": false,
                         "rot": 0.0,
                         "scale_ref": {
@@ -7464,7 +7470,7 @@
                     {
                         "name": "お炊き上げシナリオビューワー",
                         "source_uuid": "21aea933-0265-43dd-ba9a-4be16caff148",
-                        "visible": true,
+                        "visible": false,
                         "locked": false,
                         "rot": 0.0,
                         "scale_ref": {
@@ -7531,6 +7537,8 @@
             "push-to-talk-delay": 0,
             "hotkeys": {
                 "OBSBasic.SelectScene": [],
+                "libobs.show_scene_item.100": [],
+                "libobs.hide_scene_item.100": [],
                 "libobs.show_scene_item.1": [],
                 "libobs.hide_scene_item.1": [],
                 "libobs.show_scene_item.2": [],
@@ -7545,42 +7553,6 @@
                 "libobs.hide_scene_item.5": [],
                 "libobs.show_scene_item.17": [],
                 "libobs.hide_scene_item.17": [],
-                "libobs.show_scene_item.82": [],
-                "libobs.hide_scene_item.82": [],
-                "libobs.show_scene_item.81": [],
-                "libobs.hide_scene_item.81": [],
-                "libobs.show_scene_item.76": [],
-                "libobs.hide_scene_item.76": [],
-                "libobs.show_scene_item.75": [],
-                "libobs.hide_scene_item.75": [],
-                "libobs.show_scene_item.74": [],
-                "libobs.hide_scene_item.74": [],
-                "libobs.show_scene_item.73": [],
-                "libobs.hide_scene_item.73": [],
-                "libobs.show_scene_item.59": [],
-                "libobs.hide_scene_item.59": [],
-                "libobs.show_scene_item.58": [],
-                "libobs.hide_scene_item.58": [],
-                "libobs.show_scene_item.53": [],
-                "libobs.hide_scene_item.53": [],
-                "libobs.show_scene_item.52": [],
-                "libobs.hide_scene_item.52": [],
-                "libobs.show_scene_item.51": [],
-                "libobs.hide_scene_item.51": [],
-                "libobs.show_scene_item.30": [],
-                "libobs.hide_scene_item.30": [],
-                "libobs.show_scene_item.29": [],
-                "libobs.hide_scene_item.29": [],
-                "libobs.show_scene_item.28": [],
-                "libobs.hide_scene_item.28": [],
-                "libobs.show_scene_item.27": [],
-                "libobs.hide_scene_item.27": [],
-                "libobs.show_scene_item.26": [],
-                "libobs.hide_scene_item.26": [],
-                "libobs.show_scene_item.25": [],
-                "libobs.hide_scene_item.25": [],
-                "libobs.show_scene_item.18": [],
-                "libobs.hide_scene_item.18": [],
                 "libobs.show_scene_item.91": [],
                 "libobs.hide_scene_item.91": [],
                 "libobs.show_scene_item.92": [],
@@ -7600,7 +7572,9 @@
                 "libobs.show_scene_item.89": [],
                 "libobs.hide_scene_item.89": [],
                 "libobs.show_scene_item.99": [],
-                "libobs.hide_scene_item.99": []
+                "libobs.hide_scene_item.99": [],
+                "libobs.show_scene_item.243": [],
+                "libobs.hide_scene_item.243": []
             },
             "deinterlace_mode": 0,
             "deinterlace_field_order": 0,
@@ -7616,798 +7590,6 @@
             "versioned_id": "image_source",
             "settings": {
                 "file": "C:/Users/fuko1/OneDrive/画像/YouTube/配信素材/配信フレーム/文字入れ用枠3.png"
-            },
-            "mixers": 0,
-            "sync": 0,
-            "flags": 0,
-            "volume": 1.0,
-            "balance": 0.5,
-            "enabled": true,
-            "muted": false,
-            "push-to-mute": false,
-            "push-to-mute-delay": 0,
-            "push-to-talk": false,
-            "push-to-talk-delay": 0,
-            "hotkeys": {},
-            "deinterlace_mode": 0,
-            "deinterlace_field_order": 0,
-            "monitoring_type": 0,
-            "private_settings": {}
-        },
-        {
-            "prev_ver": 536870914,
-            "name": "シナリオコード1",
-            "uuid": "6809cbec-3f80-46f6-b3be-4df8e593ff94",
-            "id": "text_gdiplus",
-            "versioned_id": "text_gdiplus_v3",
-            "settings": {
-                "text": "SLCH-HLC1-18EY-HAMU\n",
-                "font": {
-                    "face": "ラノベPOP v2",
-                    "style": "v2",
-                    "size": 256,
-                    "flags": 1
-                },
-                "color": 4278190080
-            },
-            "mixers": 0,
-            "sync": 0,
-            "flags": 0,
-            "volume": 1.0,
-            "balance": 0.5,
-            "enabled": true,
-            "muted": false,
-            "push-to-mute": false,
-            "push-to-mute-delay": 0,
-            "push-to-talk": false,
-            "push-to-talk-delay": 0,
-            "hotkeys": {},
-            "deinterlace_mode": 0,
-            "deinterlace_field_order": 0,
-            "monitoring_type": 0,
-            "private_settings": {}
-        },
-        {
-            "prev_ver": 536870914,
-            "name": "コメント",
-            "uuid": "19bda7a7-f74c-41d2-bc43-bab767a28d8a",
-            "id": "text_gdiplus",
-            "versioned_id": "text_gdiplus_v3",
-            "settings": {
-                "text": "WAVE1シンプルクソ湧き(はーにゃん様)",
-                "font": {
-                    "face": "ラノベPOP v2",
-                    "style": "v2",
-                    "size": 256,
-                    "flags": 1
-                },
-                "color": 4278190080
-            },
-            "mixers": 0,
-            "sync": 0,
-            "flags": 0,
-            "volume": 1.0,
-            "balance": 0.5,
-            "enabled": true,
-            "muted": false,
-            "push-to-mute": false,
-            "push-to-mute-delay": 0,
-            "push-to-talk": false,
-            "push-to-talk-delay": 0,
-            "hotkeys": {},
-            "deinterlace_mode": 0,
-            "deinterlace_field_order": 0,
-            "monitoring_type": 0,
-            "private_settings": {}
-        },
-        {
-            "prev_ver": 536870914,
-            "name": "シナリオコード4",
-            "uuid": "55f4f58c-4897-460d-8f1c-7221ed1cafdc",
-            "id": "text_gdiplus",
-            "versioned_id": "text_gdiplus_v3",
-            "settings": {
-                "text": "SWV9-5WA3-Q9L7-2R0C",
-                "font": {
-                    "face": "ラノベPOP v2",
-                    "style": "v2",
-                    "size": 256,
-                    "flags": 1
-                },
-                "color": 4278190080
-            },
-            "mixers": 0,
-            "sync": 0,
-            "flags": 0,
-            "volume": 1.0,
-            "balance": 0.5,
-            "enabled": true,
-            "muted": false,
-            "push-to-mute": false,
-            "push-to-mute-delay": 0,
-            "push-to-talk": false,
-            "push-to-talk-delay": 0,
-            "hotkeys": {},
-            "deinterlace_mode": 0,
-            "deinterlace_field_order": 0,
-            "monitoring_type": 0,
-            "private_settings": {}
-        },
-        {
-            "prev_ver": 536870914,
-            "name": "シナリオコード3",
-            "uuid": "9734fc78-8872-41bb-a89b-fb5c721f2faf",
-            "id": "text_gdiplus",
-            "versioned_id": "text_gdiplus_v3",
-            "settings": {
-                "text": "S2LF-R8NF-DE9K-7G1H",
-                "font": {
-                    "face": "ラノベPOP v2",
-                    "style": "v2",
-                    "size": 256,
-                    "flags": 1
-                },
-                "color": 4278190080
-            },
-            "mixers": 0,
-            "sync": 0,
-            "flags": 0,
-            "volume": 1.0,
-            "balance": 0.5,
-            "enabled": true,
-            "muted": false,
-            "push-to-mute": false,
-            "push-to-mute-delay": 0,
-            "push-to-talk": false,
-            "push-to-talk-delay": 0,
-            "hotkeys": {},
-            "deinterlace_mode": 0,
-            "deinterlace_field_order": 0,
-            "monitoring_type": 0,
-            "private_settings": {}
-        },
-        {
-            "prev_ver": 536870914,
-            "name": "シナリオコード5",
-            "uuid": "7bd97641-3117-4beb-b19a-512a27774d37",
-            "id": "text_gdiplus",
-            "versioned_id": "text_gdiplus_v3",
-            "settings": {
-                "text": "SJYA-H1WE-NR1F-6289\n",
-                "font": {
-                    "face": "ラノベPOP v2",
-                    "style": "v2",
-                    "size": 256,
-                    "flags": 1
-                },
-                "color": 4278190080
-            },
-            "mixers": 0,
-            "sync": 0,
-            "flags": 0,
-            "volume": 1.0,
-            "balance": 0.5,
-            "enabled": true,
-            "muted": false,
-            "push-to-mute": false,
-            "push-to-mute-delay": 0,
-            "push-to-talk": false,
-            "push-to-talk-delay": 0,
-            "hotkeys": {},
-            "deinterlace_mode": 0,
-            "deinterlace_field_order": 0,
-            "monitoring_type": 0,
-            "private_settings": {}
-        },
-        {
-            "prev_ver": 536870914,
-            "name": "シナリオコード6",
-            "uuid": "26b54a8f-0593-4acb-8ead-5f80824b0cb9",
-            "id": "text_gdiplus",
-            "versioned_id": "text_gdiplus_v3",
-            "settings": {
-                "text": "SGUU-KQ82-0XXP-V5MT",
-                "font": {
-                    "face": "ラノベPOP v2",
-                    "style": "v2",
-                    "size": 256,
-                    "flags": 1
-                },
-                "color": 4278190080
-            },
-            "mixers": 0,
-            "sync": 0,
-            "flags": 0,
-            "volume": 1.0,
-            "balance": 0.5,
-            "enabled": true,
-            "muted": false,
-            "push-to-mute": false,
-            "push-to-mute-delay": 0,
-            "push-to-talk": false,
-            "push-to-talk-delay": 0,
-            "hotkeys": {},
-            "deinterlace_mode": 0,
-            "deinterlace_field_order": 0,
-            "monitoring_type": 0,
-            "private_settings": {}
-        },
-        {
-            "prev_ver": 536870914,
-            "name": "シナリオコード7",
-            "uuid": "3b837f02-b582-4729-b02d-05482bf07852",
-            "id": "text_gdiplus",
-            "versioned_id": "text_gdiplus_v3",
-            "settings": {
-                "text": "SW4N-TNLB-8ADD-QMFK",
-                "font": {
-                    "face": "ラノベPOP v2",
-                    "style": "v2",
-                    "size": 256,
-                    "flags": 1
-                },
-                "color": 4278190080
-            },
-            "mixers": 0,
-            "sync": 0,
-            "flags": 0,
-            "volume": 1.0,
-            "balance": 0.5,
-            "enabled": true,
-            "muted": false,
-            "push-to-mute": false,
-            "push-to-mute-delay": 0,
-            "push-to-talk": false,
-            "push-to-talk-delay": 0,
-            "hotkeys": {},
-            "deinterlace_mode": 0,
-            "deinterlace_field_order": 0,
-            "monitoring_type": 0,
-            "private_settings": {}
-        },
-        {
-            "prev_ver": 536870914,
-            "name": "シナリオコード2",
-            "uuid": "79e8ac83-8f99-488d-b309-38e650c9a336",
-            "id": "text_gdiplus",
-            "versioned_id": "text_gdiplus_v3",
-            "settings": {
-                "text": "SQ1Q-QGPH-X8GF-A277\n",
-                "font": {
-                    "face": "ラノベPOP v2",
-                    "style": "v2",
-                    "size": 256,
-                    "flags": 1
-                },
-                "color": 4278190080
-            },
-            "mixers": 0,
-            "sync": 0,
-            "flags": 0,
-            "volume": 1.0,
-            "balance": 0.5,
-            "enabled": true,
-            "muted": false,
-            "push-to-mute": false,
-            "push-to-mute-delay": 0,
-            "push-to-talk": false,
-            "push-to-talk-delay": 0,
-            "hotkeys": {},
-            "deinterlace_mode": 0,
-            "deinterlace_field_order": 0,
-            "monitoring_type": 0,
-            "private_settings": {}
-        },
-        {
-            "prev_ver": 536870914,
-            "name": "コメント 2",
-            "uuid": "a031b155-af46-4aaa-9065-69bdf6484076",
-            "id": "text_gdiplus",
-            "versioned_id": "text_gdiplus_v3",
-            "settings": {
-                "text": "WAVE2 壊滅的な編成事故\n(はーにゃん様)",
-                "font": {
-                    "face": "ラノベPOP v2",
-                    "style": "v2",
-                    "size": 256,
-                    "flags": 1
-                },
-                "color": 4278190080
-            },
-            "mixers": 0,
-            "sync": 0,
-            "flags": 0,
-            "volume": 1.0,
-            "balance": 0.5,
-            "enabled": true,
-            "muted": false,
-            "push-to-mute": false,
-            "push-to-mute-delay": 0,
-            "push-to-talk": false,
-            "push-to-talk-delay": 0,
-            "hotkeys": {},
-            "deinterlace_mode": 0,
-            "deinterlace_field_order": 0,
-            "monitoring_type": 0,
-            "private_settings": {}
-        },
-        {
-            "prev_ver": 536870914,
-            "name": "コメント 3",
-            "uuid": "b4f4ca88-c35b-4460-9333-713a9a1901c7",
-            "id": "text_gdiplus",
-            "versioned_id": "text_gdiplus_v3",
-            "settings": {
-                "text": "タワー地獄(はーにゃん様)",
-                "font": {
-                    "face": "ラノベPOP v2",
-                    "style": "v2",
-                    "size": 256,
-                    "flags": 1
-                },
-                "color": 4278190080
-            },
-            "mixers": 0,
-            "sync": 0,
-            "flags": 0,
-            "volume": 1.0,
-            "balance": 0.5,
-            "enabled": true,
-            "muted": false,
-            "push-to-mute": false,
-            "push-to-mute-delay": 0,
-            "push-to-talk": false,
-            "push-to-talk-delay": 0,
-            "hotkeys": {},
-            "deinterlace_mode": 0,
-            "deinterlace_field_order": 0,
-            "monitoring_type": 0,
-            "private_settings": {}
-        },
-        {
-            "prev_ver": 536870914,
-            "name": "コメント 4",
-            "uuid": "1b34b6bb-c2f8-4bf1-a28a-c047c44dc0df",
-            "id": "text_gdiplus",
-            "versioned_id": "text_gdiplus_v3",
-            "settings": {
-                "text": "挑戦状Part3(はーにゃん様)",
-                "font": {
-                    "face": "ラノベPOP v2",
-                    "style": "v2",
-                    "size": 256,
-                    "flags": 1
-                },
-                "color": 4278190080
-            },
-            "mixers": 0,
-            "sync": 0,
-            "flags": 0,
-            "volume": 1.0,
-            "balance": 0.5,
-            "enabled": true,
-            "muted": false,
-            "push-to-mute": false,
-            "push-to-mute-delay": 0,
-            "push-to-talk": false,
-            "push-to-talk-delay": 0,
-            "hotkeys": {},
-            "deinterlace_mode": 0,
-            "deinterlace_field_order": 0,
-            "monitoring_type": 0,
-            "private_settings": {}
-        },
-        {
-            "prev_ver": 536870914,
-            "name": "コメント 5",
-            "uuid": "71c51c60-6cfd-40ab-9695-c5a03ee1b986",
-            "id": "text_gdiplus",
-            "versioned_id": "text_gdiplus_v3",
-            "settings": {
-                "text": "武器が細い細い(はーにゃん様)",
-                "font": {
-                    "face": "ラノベPOP v2",
-                    "style": "v2",
-                    "size": 256,
-                    "flags": 1
-                },
-                "color": 4278190080
-            },
-            "mixers": 0,
-            "sync": 0,
-            "flags": 0,
-            "volume": 1.0,
-            "balance": 0.5,
-            "enabled": true,
-            "muted": false,
-            "push-to-mute": false,
-            "push-to-mute-delay": 0,
-            "push-to-talk": false,
-            "push-to-talk-delay": 0,
-            "hotkeys": {},
-            "deinterlace_mode": 0,
-            "deinterlace_field_order": 0,
-            "monitoring_type": 0,
-            "private_settings": {}
-        },
-        {
-            "prev_ver": 536870914,
-            "name": "コメント 6",
-            "uuid": "ddd763ec-0cab-4cfd-b159-38750244e4a6",
-            "id": "text_gdiplus",
-            "versioned_id": "text_gdiplus_v3",
-            "settings": {
-                "text": "WAVE3の編成(はーにゃん様)",
-                "font": {
-                    "face": "ラノベPOP v2",
-                    "style": "v2",
-                    "size": 256,
-                    "flags": 1
-                },
-                "color": 4278190080
-            },
-            "mixers": 0,
-            "sync": 0,
-            "flags": 0,
-            "volume": 1.0,
-            "balance": 0.5,
-            "enabled": true,
-            "muted": false,
-            "push-to-mute": false,
-            "push-to-mute-delay": 0,
-            "push-to-talk": false,
-            "push-to-talk-delay": 0,
-            "hotkeys": {},
-            "deinterlace_mode": 0,
-            "deinterlace_field_order": 0,
-            "monitoring_type": 0,
-            "private_settings": {}
-        },
-        {
-            "prev_ver": 536870914,
-            "name": "コメント 7",
-            "uuid": "348677db-c1cc-4dbc-a3e7-afd9c58b57c5",
-            "id": "text_gdiplus",
-            "versioned_id": "text_gdiplus_v3",
-            "settings": {
-                "text": "シンプル鬼クソ湧き(はーにゃん様)",
-                "font": {
-                    "face": "ラノベPOP v2",
-                    "style": "v2",
-                    "size": 256,
-                    "flags": 1
-                },
-                "color": 4278190080
-            },
-            "mixers": 0,
-            "sync": 0,
-            "flags": 0,
-            "volume": 1.0,
-            "balance": 0.5,
-            "enabled": true,
-            "muted": false,
-            "push-to-mute": false,
-            "push-to-mute-delay": 0,
-            "push-to-talk": false,
-            "push-to-talk-delay": 0,
-            "hotkeys": {},
-            "deinterlace_mode": 0,
-            "deinterlace_field_order": 0,
-            "monitoring_type": 0,
-            "private_settings": {}
-        },
-        {
-            "prev_ver": 536870914,
-            "name": "コメント 8",
-            "uuid": "c4818cb6-a7ba-4f3d-b95e-542427c157f3",
-            "id": "text_gdiplus",
-            "versioned_id": "text_gdiplus_v3",
-            "settings": {
-                "text": "(しいかみすず様)",
-                "font": {
-                    "face": "ラノベPOP v2",
-                    "style": "v2",
-                    "size": 256,
-                    "flags": 1
-                },
-                "color": 4278190080
-            },
-            "mixers": 0,
-            "sync": 0,
-            "flags": 0,
-            "volume": 1.0,
-            "balance": 0.5,
-            "enabled": true,
-            "muted": false,
-            "push-to-mute": false,
-            "push-to-mute-delay": 0,
-            "push-to-talk": false,
-            "push-to-talk-delay": 0,
-            "hotkeys": {},
-            "deinterlace_mode": 0,
-            "deinterlace_field_order": 0,
-            "monitoring_type": 0,
-            "private_settings": {}
-        },
-        {
-            "prev_ver": 536870914,
-            "name": "コメント 9",
-            "uuid": "cc49ce9b-2b08-49c7-b67c-deeca84776ea",
-            "id": "text_gdiplus",
-            "versioned_id": "text_gdiplus_v3",
-            "settings": {
-                "text": "(さけおおかみ様)",
-                "font": {
-                    "face": "ラノベPOP v2",
-                    "style": "v2",
-                    "size": 256,
-                    "flags": 1
-                },
-                "color": 4278190080
-            },
-            "mixers": 0,
-            "sync": 0,
-            "flags": 0,
-            "volume": 1.0,
-            "balance": 0.5,
-            "enabled": true,
-            "muted": false,
-            "push-to-mute": false,
-            "push-to-mute-delay": 0,
-            "push-to-talk": false,
-            "push-to-talk-delay": 0,
-            "hotkeys": {},
-            "deinterlace_mode": 0,
-            "deinterlace_field_order": 0,
-            "monitoring_type": 0,
-            "private_settings": {}
-        },
-        {
-            "prev_ver": 536870914,
-            "name": "コメント 10",
-            "uuid": "b0a7f8dd-f426-48ae-9f1f-451e620f9448",
-            "id": "text_gdiplus",
-            "versioned_id": "text_gdiplus_v3",
-            "settings": {
-                "text": "(さけおおかみ様)",
-                "font": {
-                    "face": "ラノベPOP v2",
-                    "style": "v2",
-                    "size": 256,
-                    "flags": 1
-                },
-                "color": 4278190080
-            },
-            "mixers": 0,
-            "sync": 0,
-            "flags": 0,
-            "volume": 1.0,
-            "balance": 0.5,
-            "enabled": true,
-            "muted": false,
-            "push-to-mute": false,
-            "push-to-mute-delay": 0,
-            "push-to-talk": false,
-            "push-to-talk-delay": 0,
-            "hotkeys": {},
-            "deinterlace_mode": 0,
-            "deinterlace_field_order": 0,
-            "monitoring_type": 0,
-            "private_settings": {}
-        },
-        {
-            "prev_ver": 536870914,
-            "name": "シナリオコード8",
-            "uuid": "8801072e-3f09-4f90-a8e9-d271bb60ffd5",
-            "id": "text_gdiplus",
-            "versioned_id": "text_gdiplus_v3",
-            "settings": {
-                "text": "SYCG-6NWL-H2YE-QMR8\n",
-                "font": {
-                    "face": "ラノベPOP v2",
-                    "style": "v2",
-                    "size": 256,
-                    "flags": 1
-                },
-                "color": 4278190080
-            },
-            "mixers": 0,
-            "sync": 0,
-            "flags": 0,
-            "volume": 1.0,
-            "balance": 0.5,
-            "enabled": true,
-            "muted": false,
-            "push-to-mute": false,
-            "push-to-mute-delay": 0,
-            "push-to-talk": false,
-            "push-to-talk-delay": 0,
-            "hotkeys": {},
-            "deinterlace_mode": 0,
-            "deinterlace_field_order": 0,
-            "monitoring_type": 0,
-            "private_settings": {}
-        },
-        {
-            "prev_ver": 536870914,
-            "name": "シナリオコード9",
-            "uuid": "9ae22ae5-4b66-44cf-9fdd-d00343efe855",
-            "id": "text_gdiplus",
-            "versioned_id": "text_gdiplus_v3",
-            "settings": {
-                "text": "SFGL-31R9-LF31-FFSR\n",
-                "font": {
-                    "face": "ラノベPOP v2",
-                    "style": "v2",
-                    "size": 256,
-                    "flags": 1
-                },
-                "color": 4278190080
-            },
-            "mixers": 0,
-            "sync": 0,
-            "flags": 0,
-            "volume": 1.0,
-            "balance": 0.5,
-            "enabled": true,
-            "muted": false,
-            "push-to-mute": false,
-            "push-to-mute-delay": 0,
-            "push-to-talk": false,
-            "push-to-talk-delay": 0,
-            "hotkeys": {},
-            "deinterlace_mode": 0,
-            "deinterlace_field_order": 0,
-            "monitoring_type": 0,
-            "private_settings": {}
-        },
-        {
-            "prev_ver": 536870914,
-            "name": "シナリオコード10",
-            "uuid": "7d2e422e-ce05-47b4-9a68-1dd058b46dd1",
-            "id": "text_gdiplus",
-            "versioned_id": "text_gdiplus_v3",
-            "settings": {
-                "text": "S14N-56G1-XXST-GV74\n",
-                "font": {
-                    "face": "ラノベPOP v2",
-                    "style": "v2",
-                    "size": 256,
-                    "flags": 1
-                },
-                "color": 4278190080
-            },
-            "mixers": 0,
-            "sync": 0,
-            "flags": 0,
-            "volume": 1.0,
-            "balance": 0.5,
-            "enabled": true,
-            "muted": false,
-            "push-to-mute": false,
-            "push-to-mute-delay": 0,
-            "push-to-talk": false,
-            "push-to-talk-delay": 0,
-            "hotkeys": {},
-            "deinterlace_mode": 0,
-            "deinterlace_field_order": 0,
-            "monitoring_type": 0,
-            "private_settings": {}
-        },
-        {
-            "prev_ver": 536870914,
-            "name": "シナリオコード11",
-            "uuid": "617542eb-924b-4203-a20c-8c856db5de47",
-            "id": "text_gdiplus",
-            "versioned_id": "text_gdiplus_v3",
-            "settings": {
-                "text": "SMHJ-F9QR-9XLV-EHE9",
-                "font": {
-                    "face": "ラノベPOP v2",
-                    "style": "v2",
-                    "size": 256,
-                    "flags": 1
-                },
-                "color": 4278190080
-            },
-            "mixers": 0,
-            "sync": 0,
-            "flags": 0,
-            "volume": 1.0,
-            "balance": 0.5,
-            "enabled": true,
-            "muted": false,
-            "push-to-mute": false,
-            "push-to-mute-delay": 0,
-            "push-to-talk": false,
-            "push-to-talk-delay": 0,
-            "hotkeys": {},
-            "deinterlace_mode": 0,
-            "deinterlace_field_order": 0,
-            "monitoring_type": 0,
-            "private_settings": {}
-        },
-        {
-            "prev_ver": 536870914,
-            "name": "シナリオコード12",
-            "uuid": "f165ae39-0a5f-4e47-986f-38a6ecb80fef",
-            "id": "text_gdiplus",
-            "versioned_id": "text_gdiplus_v3",
-            "settings": {
-                "text": "SLGY-1LA1-SWXP-PANG",
-                "font": {
-                    "face": "ラノベPOP v2",
-                    "style": "v2",
-                    "size": 256,
-                    "flags": 1
-                },
-                "color": 4278190080
-            },
-            "mixers": 0,
-            "sync": 0,
-            "flags": 0,
-            "volume": 1.0,
-            "balance": 0.5,
-            "enabled": true,
-            "muted": false,
-            "push-to-mute": false,
-            "push-to-mute-delay": 0,
-            "push-to-talk": false,
-            "push-to-talk-delay": 0,
-            "hotkeys": {},
-            "deinterlace_mode": 0,
-            "deinterlace_field_order": 0,
-            "monitoring_type": 0,
-            "private_settings": {}
-        },
-        {
-            "prev_ver": 536870914,
-            "name": "コメント 11",
-            "uuid": "b27d7a02-0745-4fa0-8e8b-7fa72e2483ba",
-            "id": "text_gdiplus",
-            "versioned_id": "text_gdiplus_v3",
-            "settings": {
-                "text": "(しゅんちゃん様)",
-                "font": {
-                    "face": "ラノベPOP v2",
-                    "style": "v2",
-                    "size": 256,
-                    "flags": 1
-                },
-                "color": 4278190080
-            },
-            "mixers": 0,
-            "sync": 0,
-            "flags": 0,
-            "volume": 1.0,
-            "balance": 0.5,
-            "enabled": true,
-            "muted": false,
-            "push-to-mute": false,
-            "push-to-mute-delay": 0,
-            "push-to-talk": false,
-            "push-to-talk-delay": 0,
-            "hotkeys": {},
-            "deinterlace_mode": 0,
-            "deinterlace_field_order": 0,
-            "monitoring_type": 0,
-            "private_settings": {}
-        },
-        {
-            "prev_ver": 536870914,
-            "name": "コメント 12",
-            "uuid": "56b35cf1-eb62-4db6-a82f-7fb5251a1236",
-            "id": "text_gdiplus",
-            "versioned_id": "text_gdiplus_v3",
-            "settings": {
-                "text": "(ちゃる)",
-                "font": {
-                    "face": "ラノベPOP v2",
-                    "style": "v2",
-                    "size": 256,
-                    "flags": 1
-                },
-                "color": 4278190080
             },
             "mixers": 0,
             "sync": 0,
@@ -8573,8 +7755,8 @@
                         "id": 203,
                         "group_item_backup": false,
                         "pos": {
-                            "x": 0.0,
-                            "y": 0.0
+                            "x": 960.0,
+                            "y": 540.0
                         },
                         "pos_rel": {
                             "x": 0.0,
@@ -9832,6 +9014,8 @@
             "push-to-talk-delay": 0,
             "hotkeys": {
                 "OBSBasic.SelectScene": [],
+                "libobs.show_scene_item.203": [],
+                "libobs.hide_scene_item.203": [],
                 "libobs.show_scene_item.1": [],
                 "libobs.hide_scene_item.1": [],
                 "libobs.show_scene_item.2": [],
@@ -9906,8 +9090,8 @@
                         "id": 17,
                         "group_item_backup": false,
                         "pos": {
-                            "x": 0.0,
-                            "y": 0.0
+                            "x": 960.0,
+                            "y": 540.0
                         },
                         "pos_rel": {
                             "x": 0.0,
@@ -10505,6 +9689,8 @@
             "push-to-talk-delay": 0,
             "hotkeys": {
                 "OBSBasic.SelectScene": [],
+                "libobs.show_scene_item.17": [],
+                "libobs.hide_scene_item.17": [],
                 "libobs.show_scene_item.3": [],
                 "libobs.hide_scene_item.3": [],
                 "libobs.show_scene_item.4": [],
@@ -10563,8 +9749,8 @@
                         "id": 66,
                         "group_item_backup": false,
                         "pos": {
-                            "x": 0.0,
-                            "y": 0.0
+                            "x": 960.0,
+                            "y": 540.0
                         },
                         "pos_rel": {
                             "x": 0.0,
@@ -11773,6 +10959,8 @@
             "push-to-talk-delay": 0,
             "hotkeys": {
                 "OBSBasic.SelectScene": [],
+                "libobs.show_scene_item.66": [],
+                "libobs.hide_scene_item.66": [],
                 "libobs.show_scene_item.1": [],
                 "libobs.hide_scene_item.1": [],
                 "libobs.show_scene_item.21": [],
@@ -11833,8 +11021,8 @@
                         "id": 79,
                         "group_item_backup": false,
                         "pos": {
-                            "x": 0.0,
-                            "y": 0.0
+                            "x": 960.0,
+                            "y": 540.0
                         },
                         "pos_rel": {
                             "x": 0.0,
@@ -13043,6 +12231,8 @@
             "push-to-talk-delay": 0,
             "hotkeys": {
                 "OBSBasic.SelectScene": [],
+                "libobs.show_scene_item.79": [],
+                "libobs.hide_scene_item.79": [],
                 "libobs.show_scene_item.54": [],
                 "libobs.hide_scene_item.54": [],
                 "libobs.show_scene_item.62": [],
@@ -13103,8 +12293,8 @@
                         "id": 243,
                         "group_item_backup": false,
                         "pos": {
-                            "x": 0.0,
-                            "y": 0.0
+                            "x": 960.0,
+                            "y": 540.0
                         },
                         "pos_rel": {
                             "x": 0.0,
@@ -15409,6 +14599,8 @@
             "push-to-talk-delay": 0,
             "hotkeys": {
                 "OBSBasic.SelectScene": [],
+                "libobs.show_scene_item.243": [],
+                "libobs.hide_scene_item.243": [],
                 "libobs.show_scene_item.2": [],
                 "libobs.hide_scene_item.2": [],
                 "libobs.show_scene_item.1": [],
@@ -16060,8 +15252,8 @@
                         "id": 64,
                         "group_item_backup": false,
                         "pos": {
-                            "x": 0.0,
-                            "y": 0.0
+                            "x": 960.0,
+                            "y": 540.0
                         },
                         "pos_rel": {
                             "x": 0.0,
@@ -17765,6 +16957,8 @@
             "push-to-talk-delay": 0,
             "hotkeys": {
                 "OBSBasic.SelectScene": [],
+                "libobs.show_scene_item.64": [],
+                "libobs.hide_scene_item.64": [],
                 "libobs.show_scene_item.1": [],
                 "libobs.hide_scene_item.1": [],
                 "libobs.show_scene_item.2": [],
@@ -17877,8 +17071,8 @@
                         "id": 31,
                         "group_item_backup": false,
                         "pos": {
-                            "x": 0.0,
-                            "y": 0.0
+                            "x": 960.0,
+                            "y": 540.0
                         },
                         "pos_rel": {
                             "x": 0.0,
@@ -18753,6 +17947,8 @@
             "push-to-talk-delay": 0,
             "hotkeys": {
                 "OBSBasic.SelectScene": [],
+                "libobs.show_scene_item.31": [],
+                "libobs.hide_scene_item.31": [],
                 "libobs.show_scene_item.19": [],
                 "libobs.hide_scene_item.19": [],
                 "libobs.show_scene_item.24": [],
@@ -18842,8 +18038,8 @@
                         "id": 16,
                         "group_item_backup": false,
                         "pos": {
-                            "x": 0.0,
-                            "y": 0.0
+                            "x": 960.0,
+                            "y": 540.0
                         },
                         "pos_rel": {
                             "x": 0.0,
@@ -19496,6 +18692,8 @@
             "push-to-talk-delay": 0,
             "hotkeys": {
                 "OBSBasic.SelectScene": [],
+                "libobs.show_scene_item.16": [],
+                "libobs.hide_scene_item.16": [],
                 "libobs.show_scene_item.1": [],
                 "libobs.hide_scene_item.1": [],
                 "libobs.show_scene_item.2": [],
@@ -19622,402 +18820,6 @@
         },
         {
             "prev_ver": 536870914,
-            "name": "シナリオコード13",
-            "uuid": "06f44495-1c93-4161-819e-8bf5aab28ba2",
-            "id": "text_gdiplus",
-            "versioned_id": "text_gdiplus_v3",
-            "settings": {
-                "text": "S3P0-9L00-G8UG-YCNG",
-                "font": {
-                    "face": "ラノベPOP v2",
-                    "style": "v2",
-                    "size": 256,
-                    "flags": 1
-                },
-                "color": 4278190080
-            },
-            "mixers": 0,
-            "sync": 0,
-            "flags": 0,
-            "volume": 1.0,
-            "balance": 0.5,
-            "enabled": true,
-            "muted": false,
-            "push-to-mute": false,
-            "push-to-mute-delay": 0,
-            "push-to-talk": false,
-            "push-to-talk-delay": 0,
-            "hotkeys": {},
-            "deinterlace_mode": 0,
-            "deinterlace_field_order": 0,
-            "monitoring_type": 0,
-            "private_settings": {}
-        },
-        {
-            "prev_ver": 536870914,
-            "name": "シナリオコード14",
-            "uuid": "058a26ff-3f10-4a47-b1dc-f30a969cde7b",
-            "id": "text_gdiplus",
-            "versioned_id": "text_gdiplus_v3",
-            "settings": {
-                "text": "S4C5-KLX2-1TNG-C66B",
-                "font": {
-                    "face": "ラノベPOP v2",
-                    "style": "v2",
-                    "size": 256,
-                    "flags": 1
-                },
-                "color": 4278190080
-            },
-            "mixers": 0,
-            "sync": 0,
-            "flags": 0,
-            "volume": 1.0,
-            "balance": 0.5,
-            "enabled": true,
-            "muted": false,
-            "push-to-mute": false,
-            "push-to-mute-delay": 0,
-            "push-to-talk": false,
-            "push-to-talk-delay": 0,
-            "hotkeys": {},
-            "deinterlace_mode": 0,
-            "deinterlace_field_order": 0,
-            "monitoring_type": 0,
-            "private_settings": {}
-        },
-        {
-            "prev_ver": 536870914,
-            "name": "シナリオコード15",
-            "uuid": "f77a2654-92c1-4ce6-9e44-b6c1c69b69fa",
-            "id": "text_gdiplus",
-            "versioned_id": "text_gdiplus_v3",
-            "settings": {
-                "text": "S868-5LMA-6R8K-S9JS",
-                "font": {
-                    "face": "ラノベPOP v2",
-                    "style": "v2",
-                    "size": 256,
-                    "flags": 1
-                },
-                "color": 4278190080
-            },
-            "mixers": 0,
-            "sync": 0,
-            "flags": 0,
-            "volume": 1.0,
-            "balance": 0.5,
-            "enabled": true,
-            "muted": false,
-            "push-to-mute": false,
-            "push-to-mute-delay": 0,
-            "push-to-talk": false,
-            "push-to-talk-delay": 0,
-            "hotkeys": {},
-            "deinterlace_mode": 0,
-            "deinterlace_field_order": 0,
-            "monitoring_type": 0,
-            "private_settings": {}
-        },
-        {
-            "prev_ver": 536870914,
-            "name": "シナリオコード16",
-            "uuid": "6245e11c-1d95-4314-8d4a-348412acb070",
-            "id": "text_gdiplus",
-            "versioned_id": "text_gdiplus_v3",
-            "settings": {
-                "text": "SJQG-XU9L-SF5Y-C2AY",
-                "font": {
-                    "face": "ラノベPOP v2",
-                    "style": "v2",
-                    "size": 256,
-                    "flags": 1
-                },
-                "color": 4278190080
-            },
-            "mixers": 0,
-            "sync": 0,
-            "flags": 0,
-            "volume": 1.0,
-            "balance": 0.5,
-            "enabled": true,
-            "muted": false,
-            "push-to-mute": false,
-            "push-to-mute-delay": 0,
-            "push-to-talk": false,
-            "push-to-talk-delay": 0,
-            "hotkeys": {},
-            "deinterlace_mode": 0,
-            "deinterlace_field_order": 0,
-            "monitoring_type": 0,
-            "private_settings": {}
-        },
-        {
-            "prev_ver": 536870914,
-            "name": "コメント 13",
-            "uuid": "f458c35d-f1ca-47b2-a29c-cc06580d380c",
-            "id": "text_gdiplus",
-            "versioned_id": "text_gdiplus_v3",
-            "settings": {
-                "text": "(ちゃる)",
-                "font": {
-                    "face": "ラノベPOP v2",
-                    "style": "v2",
-                    "size": 256,
-                    "flags": 1
-                },
-                "color": 4278190080
-            },
-            "mixers": 0,
-            "sync": 0,
-            "flags": 0,
-            "volume": 1.0,
-            "balance": 0.5,
-            "enabled": true,
-            "muted": false,
-            "push-to-mute": false,
-            "push-to-mute-delay": 0,
-            "push-to-talk": false,
-            "push-to-talk-delay": 0,
-            "hotkeys": {},
-            "deinterlace_mode": 0,
-            "deinterlace_field_order": 0,
-            "monitoring_type": 0,
-            "private_settings": {}
-        },
-        {
-            "prev_ver": 536870914,
-            "name": "コメント 14",
-            "uuid": "c92cb3e6-ddba-43a5-b1c1-9cb96bff5c25",
-            "id": "text_gdiplus",
-            "versioned_id": "text_gdiplus_v3",
-            "settings": {
-                "text": "(ちゃる)",
-                "font": {
-                    "face": "ラノベPOP v2",
-                    "style": "v2",
-                    "size": 256,
-                    "flags": 1
-                },
-                "color": 4278190080
-            },
-            "mixers": 0,
-            "sync": 0,
-            "flags": 0,
-            "volume": 1.0,
-            "balance": 0.5,
-            "enabled": true,
-            "muted": false,
-            "push-to-mute": false,
-            "push-to-mute-delay": 0,
-            "push-to-talk": false,
-            "push-to-talk-delay": 0,
-            "hotkeys": {},
-            "deinterlace_mode": 0,
-            "deinterlace_field_order": 0,
-            "monitoring_type": 0,
-            "private_settings": {}
-        },
-        {
-            "prev_ver": 536870914,
-            "name": "コメント 15",
-            "uuid": "dfdbb71b-9fff-4d3f-8416-9a8cb76ac587",
-            "id": "text_gdiplus",
-            "versioned_id": "text_gdiplus_v3",
-            "settings": {
-                "text": "(ちゃる)",
-                "font": {
-                    "face": "ラノベPOP v2",
-                    "style": "v2",
-                    "size": 256,
-                    "flags": 1
-                },
-                "color": 4278190080
-            },
-            "mixers": 0,
-            "sync": 0,
-            "flags": 0,
-            "volume": 1.0,
-            "balance": 0.5,
-            "enabled": true,
-            "muted": false,
-            "push-to-mute": false,
-            "push-to-mute-delay": 0,
-            "push-to-talk": false,
-            "push-to-talk-delay": 0,
-            "hotkeys": {},
-            "deinterlace_mode": 0,
-            "deinterlace_field_order": 0,
-            "monitoring_type": 0,
-            "private_settings": {}
-        },
-        {
-            "prev_ver": 536870914,
-            "name": "コメント 16",
-            "uuid": "c13ee4ad-9b5f-405b-9588-65be6d59b0ae",
-            "id": "text_gdiplus",
-            "versioned_id": "text_gdiplus_v3",
-            "settings": {
-                "text": "(ちゃる)",
-                "font": {
-                    "face": "ラノベPOP v2",
-                    "style": "v2",
-                    "size": 256,
-                    "flags": 1
-                },
-                "color": 4278190080
-            },
-            "mixers": 0,
-            "sync": 0,
-            "flags": 0,
-            "volume": 1.0,
-            "balance": 0.5,
-            "enabled": true,
-            "muted": false,
-            "push-to-mute": false,
-            "push-to-mute-delay": 0,
-            "push-to-talk": false,
-            "push-to-talk-delay": 0,
-            "hotkeys": {},
-            "deinterlace_mode": 0,
-            "deinterlace_field_order": 0,
-            "monitoring_type": 0,
-            "private_settings": {}
-        },
-        {
-            "prev_ver": 536870914,
-            "name": "シナリオコード17",
-            "uuid": "f6064454-544e-4401-b908-0267b4c08767",
-            "id": "text_gdiplus",
-            "versioned_id": "text_gdiplus_v3",
-            "settings": {
-                "text": "SUE1-XJSH-HPSL-T4X0",
-                "font": {
-                    "face": "ラノベPOP v2",
-                    "style": "v2",
-                    "size": 256,
-                    "flags": 1
-                },
-                "color": 4278190080
-            },
-            "mixers": 0,
-            "sync": 0,
-            "flags": 0,
-            "volume": 1.0,
-            "balance": 0.5,
-            "enabled": true,
-            "muted": false,
-            "push-to-mute": false,
-            "push-to-mute-delay": 0,
-            "push-to-talk": false,
-            "push-to-talk-delay": 0,
-            "hotkeys": {},
-            "deinterlace_mode": 0,
-            "deinterlace_field_order": 0,
-            "monitoring_type": 0,
-            "private_settings": {}
-        },
-        {
-            "prev_ver": 536870914,
-            "name": "シナリオコード18",
-            "uuid": "02dd69b7-594f-450a-995b-f758d298b8f5",
-            "id": "text_gdiplus",
-            "versioned_id": "text_gdiplus_v3",
-            "settings": {
-                "text": "SC7L-WV7T-W0NY-5VRL",
-                "font": {
-                    "face": "ラノベPOP v2",
-                    "style": "v2",
-                    "size": 256,
-                    "flags": 1
-                },
-                "color": 4278190080
-            },
-            "mixers": 0,
-            "sync": 0,
-            "flags": 0,
-            "volume": 1.0,
-            "balance": 0.5,
-            "enabled": true,
-            "muted": false,
-            "push-to-mute": false,
-            "push-to-mute-delay": 0,
-            "push-to-talk": false,
-            "push-to-talk-delay": 0,
-            "hotkeys": {},
-            "deinterlace_mode": 0,
-            "deinterlace_field_order": 0,
-            "monitoring_type": 0,
-            "private_settings": {}
-        },
-        {
-            "prev_ver": 536870914,
-            "name": "コメント17",
-            "uuid": "9db711c4-b7a3-4fc8-86d9-0ac9303ba819",
-            "id": "text_gdiplus",
-            "versioned_id": "text_gdiplus_v3",
-            "settings": {
-                "text": "(ちゃる)",
-                "font": {
-                    "face": "ラノベPOP v2",
-                    "style": "v2",
-                    "size": 256,
-                    "flags": 1
-                },
-                "color": 4278190080
-            },
-            "mixers": 0,
-            "sync": 0,
-            "flags": 0,
-            "volume": 1.0,
-            "balance": 0.5,
-            "enabled": true,
-            "muted": false,
-            "push-to-mute": false,
-            "push-to-mute-delay": 0,
-            "push-to-talk": false,
-            "push-to-talk-delay": 0,
-            "hotkeys": {},
-            "deinterlace_mode": 0,
-            "deinterlace_field_order": 0,
-            "monitoring_type": 0,
-            "private_settings": {}
-        },
-        {
-            "prev_ver": 536870914,
-            "name": "コメント18",
-            "uuid": "185a6cef-b205-41f1-bcca-a26b7453a22c",
-            "id": "text_gdiplus",
-            "versioned_id": "text_gdiplus_v3",
-            "settings": {
-                "text": "ゴ〇湧き！(さくら様)",
-                "font": {
-                    "face": "ラノベPOP v2",
-                    "style": "v2",
-                    "size": 256,
-                    "flags": 1
-                },
-                "color": 4278190080
-            },
-            "mixers": 0,
-            "sync": 0,
-            "flags": 0,
-            "volume": 1.0,
-            "balance": 0.5,
-            "enabled": true,
-            "muted": false,
-            "push-to-mute": false,
-            "push-to-mute-delay": 0,
-            "push-to-talk": false,
-            "push-to-talk-delay": 0,
-            "hotkeys": {},
-            "deinterlace_mode": 0,
-            "deinterlace_field_order": 0,
-            "monitoring_type": 0,
-            "private_settings": {}
-        },
-        {
-            "prev_ver": 536870914,
             "name": "モンハン枠",
             "uuid": "a072893a-f222-48ea-bd74-1ce999d5b33c",
             "id": "image_source",
@@ -20073,8 +18875,8 @@
                         "id": 41,
                         "group_item_backup": false,
                         "pos": {
-                            "x": 0.0,
-                            "y": 0.0
+                            "x": 960.0,
+                            "y": 540.0
                         },
                         "pos_rel": {
                             "x": 0.0,
@@ -21002,6 +19804,8 @@
             "push-to-talk-delay": 0,
             "hotkeys": {
                 "OBSBasic.SelectScene": [],
+                "libobs.show_scene_item.41": [],
+                "libobs.hide_scene_item.41": [],
                 "libobs.show_scene_item.1": [],
                 "libobs.hide_scene_item.1": [],
                 "libobs.show_scene_item.25": [],
@@ -21160,8 +19964,8 @@
                         "id": 33,
                         "group_item_backup": false,
                         "pos": {
-                            "x": 0.0,
-                            "y": 0.0
+                            "x": 960.0,
+                            "y": 540.0
                         },
                         "pos_rel": {
                             "x": 0.0,
@@ -21979,6 +20783,8 @@
             "push-to-talk-delay": 0,
             "hotkeys": {
                 "OBSBasic.SelectScene": [],
+                "libobs.show_scene_item.33": [],
+                "libobs.hide_scene_item.33": [],
                 "libobs.show_scene_item.1": [],
                 "libobs.hide_scene_item.1": [],
                 "libobs.show_scene_item.2": [],
@@ -22106,8 +20912,8 @@
                         "id": 59,
                         "group_item_backup": false,
                         "pos": {
-                            "x": 0.0,
-                            "y": 0.0
+                            "x": 960.0,
+                            "y": 540.0
                         },
                         "pos_rel": {
                             "x": 0.0,
@@ -23259,6 +22065,8 @@
             "push-to-talk-delay": 0,
             "hotkeys": {
                 "OBSBasic.SelectScene": [],
+                "libobs.show_scene_item.59": [],
+                "libobs.hide_scene_item.59": [],
                 "libobs.show_scene_item.1": [],
                 "libobs.hide_scene_item.1": [],
                 "libobs.show_scene_item.2": [],
@@ -23519,8 +22327,8 @@
                         "id": 48,
                         "group_item_backup": false,
                         "pos": {
-                            "x": 0.0,
-                            "y": 0.0
+                            "x": 960.0,
+                            "y": 540.0
                         },
                         "pos_rel": {
                             "x": 0.0,
@@ -24668,6 +23476,8 @@
             "push-to-talk-delay": 0,
             "hotkeys": {
                 "OBSBasic.SelectScene": [],
+                "libobs.show_scene_item.48": [],
+                "libobs.hide_scene_item.48": [],
                 "libobs.show_scene_item.1": [],
                 "libobs.hide_scene_item.1": [],
                 "libobs.show_scene_item.25": [],
@@ -27149,8 +25959,8 @@
                         "id": 157,
                         "group_item_backup": false,
                         "pos": {
-                            "x": 0.0,
-                            "y": 0.0
+                            "x": 960.0,
+                            "y": 540.0
                         },
                         "pos_rel": {
                             "x": 0.0,
@@ -28905,6 +27715,8 @@
             "push-to-talk-delay": 0,
             "hotkeys": {
                 "OBSBasic.SelectScene": [],
+                "libobs.show_scene_item.157": [],
+                "libobs.hide_scene_item.157": [],
                 "libobs.show_scene_item.98": [],
                 "libobs.hide_scene_item.98": [],
                 "libobs.show_scene_item.97": [],
@@ -29001,8 +27813,8 @@
                         "id": 125,
                         "group_item_backup": false,
                         "pos": {
-                            "x": 0.0,
-                            "y": 0.0
+                            "x": 960.0,
+                            "y": 540.0
                         },
                         "pos_rel": {
                             "x": 0.0,
@@ -31527,6 +30339,8 @@
             "push-to-talk-delay": 0,
             "hotkeys": {
                 "OBSBasic.SelectScene": [],
+                "libobs.show_scene_item.125": [],
+                "libobs.hide_scene_item.125": [],
                 "libobs.show_scene_item.3": [],
                 "libobs.hide_scene_item.3": [],
                 "libobs.show_scene_item.5": [],
@@ -31671,8 +30485,8 @@
                         "id": 57,
                         "group_item_backup": false,
                         "pos": {
-                            "x": 0.0,
-                            "y": 0.0
+                            "x": 960.0,
+                            "y": 540.0
                         },
                         "pos_rel": {
                             "x": 0.0,
@@ -32444,7 +31258,7 @@
                         "group_item_backup": true,
                         "pos": {
                             "x": 0.0,
-                            "y": -6.103515625e-05
+                            "y": -6.103515625e-5
                         },
                         "pos_rel": {
                             "x": -1.7777777910232544,
@@ -32554,7 +31368,7 @@
                         "group_item_backup": false,
                         "pos": {
                             "x": 0.0,
-                            "y": -6.103515625e-05
+                            "y": -6.103515625e-5
                         },
                         "pos_rel": {
                             "x": -1.7777777910232544,
@@ -33046,6 +31860,8 @@
             "push-to-talk-delay": 0,
             "hotkeys": {
                 "OBSBasic.SelectScene": [],
+                "libobs.show_scene_item.57": [],
+                "libobs.hide_scene_item.57": [],
                 "libobs.show_scene_item.9": [],
                 "libobs.hide_scene_item.9": [],
                 "libobs.show_scene_item.40": [],
@@ -33588,8 +32404,8 @@
                         "id": 14,
                         "group_item_backup": false,
                         "pos": {
-                            "x": 0.0,
-                            "y": 0.0
+                            "x": 960.0,
+                            "y": 540.0
                         },
                         "pos_rel": {
                             "x": 0.0,
@@ -34352,6 +33168,8 @@
             "push-to-talk-delay": 0,
             "hotkeys": {
                 "OBSBasic.SelectScene": [],
+                "libobs.show_scene_item.14": [],
+                "libobs.hide_scene_item.14": [],
                 "libobs.show_scene_item.1": [],
                 "libobs.hide_scene_item.1": [],
                 "libobs.show_scene_item.2": [],
@@ -34553,8 +33371,8 @@
                         "id": 24,
                         "group_item_backup": false,
                         "pos": {
-                            "x": 0.0,
-                            "y": 0.0
+                            "x": 960.0,
+                            "y": 540.0
                         },
                         "pos_rel": {
                             "x": 0.0,
@@ -35374,6 +34192,8 @@
             "push-to-talk-delay": 0,
             "hotkeys": {
                 "OBSBasic.SelectScene": [],
+                "libobs.show_scene_item.24": [],
+                "libobs.hide_scene_item.24": [],
                 "libobs.show_scene_item.1": [],
                 "libobs.hide_scene_item.1": [],
                 "libobs.show_scene_item.3": [],
@@ -35426,8 +34246,8 @@
                         "id": 24,
                         "group_item_backup": false,
                         "pos": {
-                            "x": 0.0,
-                            "y": 0.0
+                            "x": 960.0,
+                            "y": 540.0
                         },
                         "pos_rel": {
                             "x": 0.0,
@@ -36410,6 +35230,8 @@
             "push-to-talk-delay": 0,
             "hotkeys": {
                 "OBSBasic.SelectScene": [],
+                "libobs.show_scene_item.24": [],
+                "libobs.hide_scene_item.24": [],
                 "libobs.show_scene_item.1": [],
                 "libobs.hide_scene_item.1": [],
                 "libobs.show_scene_item.2": [],
@@ -36560,8 +35382,8 @@
                         "id": 27,
                         "group_item_backup": false,
                         "pos": {
-                            "x": 0.0,
-                            "y": 0.0
+                            "x": 960.0,
+                            "y": 540.0
                         },
                         "pos_rel": {
                             "x": 0.0,
@@ -37654,6 +36476,8 @@
             "push-to-talk-delay": 0,
             "hotkeys": {
                 "OBSBasic.SelectScene": [],
+                "libobs.show_scene_item.27": [],
+                "libobs.hide_scene_item.27": [],
                 "libobs.show_scene_item.1": [],
                 "libobs.hide_scene_item.1": [],
                 "libobs.show_scene_item.2": [],
@@ -39511,8 +38335,8 @@
                         "id": 57,
                         "group_item_backup": false,
                         "pos": {
-                            "x": 0.0,
-                            "y": 0.0
+                            "x": 960.0,
+                            "y": 540.0
                         },
                         "pos_rel": {
                             "x": 0.0,
@@ -40497,6 +39321,8 @@
             "push-to-talk-delay": 0,
             "hotkeys": {
                 "OBSBasic.SelectScene": [],
+                "libobs.show_scene_item.57": [],
+                "libobs.hide_scene_item.57": [],
                 "libobs.show_scene_item.1": [],
                 "libobs.hide_scene_item.1": [],
                 "libobs.show_scene_item.2": [],
@@ -40974,8 +39800,8 @@
                         "id": 103,
                         "group_item_backup": false,
                         "pos": {
-                            "x": 0.0,
-                            "y": 0.0
+                            "x": 960.0,
+                            "y": 540.0
                         },
                         "pos_rel": {
                             "x": 0.0,
@@ -43009,6 +41835,8 @@
             "push-to-talk-delay": 0,
             "hotkeys": {
                 "OBSBasic.SelectScene": [],
+                "libobs.show_scene_item.103": [],
+                "libobs.hide_scene_item.103": [],
                 "libobs.show_scene_item.2": [],
                 "libobs.hide_scene_item.2": [],
                 "libobs.show_scene_item.3": [],
@@ -43228,8 +42056,8 @@
                         "id": 103,
                         "group_item_backup": false,
                         "pos": {
-                            "x": 0.0,
-                            "y": 0.0
+                            "x": 960.0,
+                            "y": 540.0
                         },
                         "pos_rel": {
                             "x": 0.0,
@@ -46141,6 +44969,8 @@
             "push-to-talk-delay": 0,
             "hotkeys": {
                 "OBSBasic.SelectScene": [],
+                "libobs.show_scene_item.103": [],
+                "libobs.hide_scene_item.103": [],
                 "libobs.show_scene_item.1": [],
                 "libobs.hide_scene_item.1": [],
                 "libobs.show_scene_item.2": [],
@@ -49157,7 +47987,7 @@
                     "id": "gain_filter",
                     "versioned_id": "gain_filter",
                     "settings": {
-                        "db": 3.5
+                        "db": 5.0
                     },
                     "mixers": 255,
                     "sync": 0,
@@ -49272,9 +48102,9 @@
                 "width": 1920,
                 "height": 1080,
                 "fps": 30,
-                "reroute_audio": false,
+                "shutdown": false,
                 "restart_when_active": false,
-                "shutdown": false
+                "reroute_audio": false
             },
             "mixers": 0,
             "sync": 0,
@@ -49287,12 +48117,17 @@
             "push-to-mute-delay": 0,
             "push-to-talk": false,
             "push-to-talk-delay": 0,
-            "hotkeys": {},
+            "hotkeys": {
+                "libobs.mute": [],
+                "libobs.unmute": [],
+                "libobs.push-to-mute": [],
+                "libobs.push-to-talk": [],
+                "ObsBrowser.Refresh": []
+            },
             "deinterlace_mode": 0,
             "deinterlace_field_order": 0,
             "monitoring_type": 0,
-            "private_settings": {},
-            "filters": []
+            "private_settings": {}
         },
         {
             "prev_ver": 536870914,
@@ -50267,7 +49102,7 @@
             "settings": {
                 "id_counter": 0,
                 "custom_size": true,
-                "cx": 200,
+                "cx": 171,
                 "cy": 346,
                 "items": [
                     {
@@ -51350,1770 +50185,6 @@
                 "libobs.hide_scene_item.200": [],
                 "libobs.show_scene_item.199": [],
                 "libobs.hide_scene_item.199": []
-            },
-            "deinterlace_mode": 0,
-            "deinterlace_field_order": 0,
-            "monitoring_type": 0,
-            "canvas_uuid": "6c69626f-6273-4c00-9d88-c5136d61696e",
-            "private_settings": {}
-        },
-        {
-            "prev_ver": 536870914,
-            "name": "シナリオ 2",
-            "uuid": "518169bf-e515-497a-a572-a058413fa634",
-            "id": "group",
-            "versioned_id": "group",
-            "settings": {
-                "id_counter": 2,
-                "custom_size": true,
-                "cx": 420,
-                "cy": 129,
-                "items": [
-                    {
-                        "name": "コメント 2",
-                        "source_uuid": "a031b155-af46-4aaa-9065-69bdf6484076",
-                        "visible": true,
-                        "locked": false,
-                        "rot": 0.0,
-                        "scale_ref": {
-                            "x": 1920.0,
-                            "y": 1080.0
-                        },
-                        "align": 5,
-                        "bounds_type": 0,
-                        "bounds_align": 0,
-                        "bounds_crop": false,
-                        "crop_left": 0,
-                        "crop_top": 0,
-                        "crop_right": 0,
-                        "crop_bottom": 0,
-                        "id": 39,
-                        "group_item_backup": false,
-                        "pos": {
-                            "x": 9.0,
-                            "y": 46.0
-                        },
-                        "pos_rel": {
-                            "x": -1.7611111402511597,
-                            "y": -0.914814829826355
-                        },
-                        "scale": {
-                            "x": 0.15915004909038544,
-                            "y": 0.16015625
-                        },
-                        "scale_rel": {
-                            "x": 0.15915004909038544,
-                            "y": 0.16015625
-                        },
-                        "bounds": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "bounds_rel": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "scale_filter": "disable",
-                        "blend_method": "default",
-                        "blend_type": "normal",
-                        "show_transition": {
-                            "duration": 0
-                        },
-                        "hide_transition": {
-                            "duration": 0
-                        },
-                        "private_settings": {}
-                    },
-                    {
-                        "name": "シナリオコード2",
-                        "source_uuid": "79e8ac83-8f99-488d-b309-38e650c9a336",
-                        "visible": true,
-                        "locked": false,
-                        "rot": 0.0,
-                        "scale_ref": {
-                            "x": 1920.0,
-                            "y": 1080.0
-                        },
-                        "align": 5,
-                        "bounds_type": 0,
-                        "bounds_align": 0,
-                        "bounds_crop": false,
-                        "crop_left": 0,
-                        "crop_top": 0,
-                        "crop_right": 0,
-                        "crop_bottom": 0,
-                        "id": 33,
-                        "group_item_backup": false,
-                        "pos": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "pos_rel": {
-                            "x": -1.7777777910232544,
-                            "y": -1.0
-                        },
-                        "scale": {
-                            "x": 0.180630624294281,
-                            "y": 0.1796875
-                        },
-                        "scale_rel": {
-                            "x": 0.180630624294281,
-                            "y": 0.1796875
-                        },
-                        "bounds": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "bounds_rel": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "scale_filter": "disable",
-                        "blend_method": "default",
-                        "blend_type": "normal",
-                        "show_transition": {
-                            "duration": 0
-                        },
-                        "hide_transition": {
-                            "duration": 0
-                        },
-                        "private_settings": {}
-                    }
-                ]
-            },
-            "mixers": 0,
-            "sync": 0,
-            "flags": 0,
-            "volume": 1.0,
-            "balance": 0.5,
-            "enabled": true,
-            "muted": false,
-            "push-to-mute": false,
-            "push-to-mute-delay": 0,
-            "push-to-talk": false,
-            "push-to-talk-delay": 0,
-            "hotkeys": {
-                "libobs.show_scene_item.39": [],
-                "libobs.hide_scene_item.39": [],
-                "libobs.show_scene_item.33": [],
-                "libobs.hide_scene_item.33": []
-            },
-            "deinterlace_mode": 0,
-            "deinterlace_field_order": 0,
-            "monitoring_type": 0,
-            "canvas_uuid": "6c69626f-6273-4c00-9d88-c5136d61696e",
-            "private_settings": {}
-        },
-        {
-            "prev_ver": 536870914,
-            "name": "シナリオ 3",
-            "uuid": "3c7cd53d-e8c0-4556-a966-9f8a7fa4248e",
-            "id": "group",
-            "versioned_id": "group",
-            "settings": {
-                "id_counter": 2,
-                "custom_size": true,
-                "cx": 405,
-                "cy": 90,
-                "items": [
-                    {
-                        "name": "コメント 3",
-                        "source_uuid": "b4f4ca88-c35b-4460-9333-713a9a1901c7",
-                        "visible": true,
-                        "locked": false,
-                        "rot": 0.0,
-                        "scale_ref": {
-                            "x": 1920.0,
-                            "y": 1080.0
-                        },
-                        "align": 5,
-                        "bounds_type": 0,
-                        "bounds_align": 0,
-                        "bounds_crop": false,
-                        "crop_left": 0,
-                        "crop_top": 0,
-                        "crop_right": 0,
-                        "crop_bottom": 0,
-                        "id": 40,
-                        "group_item_backup": false,
-                        "pos": {
-                            "x": 4.0,
-                            "y": 44.0
-                        },
-                        "pos_rel": {
-                            "x": -1.770370364189148,
-                            "y": -0.9185185432434082
-                        },
-                        "scale": {
-                            "x": 0.17878121137619019,
-                            "y": 0.1796875
-                        },
-                        "scale_rel": {
-                            "x": 0.17878121137619019,
-                            "y": 0.1796875
-                        },
-                        "bounds": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "bounds_rel": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "scale_filter": "disable",
-                        "blend_method": "default",
-                        "blend_type": "normal",
-                        "show_transition": {
-                            "duration": 0
-                        },
-                        "hide_transition": {
-                            "duration": 0
-                        },
-                        "private_settings": {}
-                    },
-                    {
-                        "name": "シナリオコード3",
-                        "source_uuid": "9734fc78-8872-41bb-a89b-fb5c721f2faf",
-                        "visible": true,
-                        "locked": false,
-                        "rot": 0.0,
-                        "scale_ref": {
-                            "x": 1920.0,
-                            "y": 1080.0
-                        },
-                        "align": 5,
-                        "bounds_type": 0,
-                        "bounds_align": 0,
-                        "bounds_crop": false,
-                        "crop_left": 0,
-                        "crop_top": 0,
-                        "crop_right": 0,
-                        "crop_bottom": 0,
-                        "id": 34,
-                        "group_item_backup": false,
-                        "pos": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "pos_rel": {
-                            "x": -1.7777777910232544,
-                            "y": -1.0
-                        },
-                        "scale": {
-                            "x": 0.180630624294281,
-                            "y": 0.1796875
-                        },
-                        "scale_rel": {
-                            "x": 0.180630624294281,
-                            "y": 0.1796875
-                        },
-                        "bounds": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "bounds_rel": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "scale_filter": "disable",
-                        "blend_method": "default",
-                        "blend_type": "normal",
-                        "show_transition": {
-                            "duration": 0
-                        },
-                        "hide_transition": {
-                            "duration": 0
-                        },
-                        "private_settings": {}
-                    }
-                ]
-            },
-            "mixers": 0,
-            "sync": 0,
-            "flags": 0,
-            "volume": 1.0,
-            "balance": 0.5,
-            "enabled": true,
-            "muted": false,
-            "push-to-mute": false,
-            "push-to-mute-delay": 0,
-            "push-to-talk": false,
-            "push-to-talk-delay": 0,
-            "hotkeys": {
-                "libobs.show_scene_item.40": [],
-                "libobs.hide_scene_item.40": [],
-                "libobs.show_scene_item.34": [],
-                "libobs.hide_scene_item.34": []
-            },
-            "deinterlace_mode": 0,
-            "deinterlace_field_order": 0,
-            "monitoring_type": 0,
-            "canvas_uuid": "6c69626f-6273-4c00-9d88-c5136d61696e",
-            "private_settings": {}
-        },
-        {
-            "prev_ver": 536870914,
-            "name": "シナリオ 4",
-            "uuid": "5e72d57f-c318-4afd-b643-3e5f19035f5d",
-            "id": "group",
-            "versioned_id": "group",
-            "settings": {
-                "id_counter": 2,
-                "custom_size": true,
-                "cx": 429,
-                "cy": 101,
-                "items": [
-                    {
-                        "name": "コメント 4",
-                        "source_uuid": "1b34b6bb-c2f8-4bf1-a28a-c047c44dc0df",
-                        "visible": true,
-                        "locked": false,
-                        "rot": 0.0,
-                        "scale_ref": {
-                            "x": 1920.0,
-                            "y": 1080.0
-                        },
-                        "align": 5,
-                        "bounds_type": 0,
-                        "bounds_align": 0,
-                        "bounds_crop": false,
-                        "crop_left": 0,
-                        "crop_top": 0,
-                        "crop_right": 0,
-                        "crop_bottom": 0,
-                        "id": 41,
-                        "group_item_backup": false,
-                        "pos": {
-                            "x": 0.0,
-                            "y": 60.0
-                        },
-                        "pos_rel": {
-                            "x": -1.7777777910232544,
-                            "y": -0.8888888955116272
-                        },
-                        "scale": {
-                            "x": 0.16057519614696503,
-                            "y": 0.16015625
-                        },
-                        "scale_rel": {
-                            "x": 0.16057519614696503,
-                            "y": 0.16015625
-                        },
-                        "bounds": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "bounds_rel": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "scale_filter": "disable",
-                        "blend_method": "default",
-                        "blend_type": "normal",
-                        "show_transition": {
-                            "duration": 0
-                        },
-                        "hide_transition": {
-                            "duration": 0
-                        },
-                        "private_settings": {}
-                    },
-                    {
-                        "name": "シナリオコード4",
-                        "source_uuid": "55f4f58c-4897-460d-8f1c-7221ed1cafdc",
-                        "visible": true,
-                        "locked": false,
-                        "rot": 0.0,
-                        "scale_ref": {
-                            "x": 1920.0,
-                            "y": 1080.0
-                        },
-                        "align": 5,
-                        "bounds_type": 0,
-                        "bounds_align": 0,
-                        "bounds_crop": false,
-                        "crop_left": 0,
-                        "crop_top": 0,
-                        "crop_right": 0,
-                        "crop_bottom": 0,
-                        "id": 35,
-                        "group_item_backup": false,
-                        "pos": {
-                            "x": 3.781494140625,
-                            "y": 0.0
-                        },
-                        "pos_rel": {
-                            "x": -1.7707749605178833,
-                            "y": -1.0
-                        },
-                        "scale": {
-                            "x": 0.180630624294281,
-                            "y": 0.1796875
-                        },
-                        "scale_rel": {
-                            "x": 0.180630624294281,
-                            "y": 0.1796875
-                        },
-                        "bounds": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "bounds_rel": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "scale_filter": "disable",
-                        "blend_method": "default",
-                        "blend_type": "normal",
-                        "show_transition": {
-                            "duration": 0
-                        },
-                        "hide_transition": {
-                            "duration": 0
-                        },
-                        "private_settings": {}
-                    }
-                ]
-            },
-            "mixers": 0,
-            "sync": 0,
-            "flags": 0,
-            "volume": 1.0,
-            "balance": 0.5,
-            "enabled": true,
-            "muted": false,
-            "push-to-mute": false,
-            "push-to-mute-delay": 0,
-            "push-to-talk": false,
-            "push-to-talk-delay": 0,
-            "hotkeys": {
-                "libobs.show_scene_item.41": [],
-                "libobs.hide_scene_item.41": [],
-                "libobs.show_scene_item.35": [],
-                "libobs.hide_scene_item.35": []
-            },
-            "deinterlace_mode": 0,
-            "deinterlace_field_order": 0,
-            "monitoring_type": 0,
-            "canvas_uuid": "6c69626f-6273-4c00-9d88-c5136d61696e",
-            "private_settings": {}
-        },
-        {
-            "prev_ver": 536870914,
-            "name": "シナリオ 5",
-            "uuid": "bb570f95-3164-44a5-a315-fae2417c9072",
-            "id": "group",
-            "versioned_id": "group",
-            "settings": {
-                "id_counter": 2,
-                "custom_size": true,
-                "cx": 452,
-                "cy": 99,
-                "items": [
-                    {
-                        "name": "コメント 5",
-                        "source_uuid": "71c51c60-6cfd-40ab-9695-c5a03ee1b986",
-                        "visible": true,
-                        "locked": false,
-                        "rot": 0.0,
-                        "scale_ref": {
-                            "x": 1920.0,
-                            "y": 1080.0
-                        },
-                        "align": 5,
-                        "bounds_type": 0,
-                        "bounds_align": 0,
-                        "bounds_crop": false,
-                        "crop_left": 0,
-                        "crop_top": 0,
-                        "crop_right": 0,
-                        "crop_bottom": 0,
-                        "id": 42,
-                        "group_item_backup": false,
-                        "pos": {
-                            "x": 2.99993896484375,
-                            "y": 54.999969482421875
-                        },
-                        "pos_rel": {
-                            "x": -1.7722222805023193,
-                            "y": -0.8981481790542603
-                        },
-                        "scale": {
-                            "x": 0.17203065752983093,
-                            "y": 0.171875
-                        },
-                        "scale_rel": {
-                            "x": 0.17203065752983093,
-                            "y": 0.171875
-                        },
-                        "bounds": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "bounds_rel": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "scale_filter": "disable",
-                        "blend_method": "default",
-                        "blend_type": "normal",
-                        "show_transition": {
-                            "duration": 0
-                        },
-                        "hide_transition": {
-                            "duration": 0
-                        },
-                        "private_settings": {}
-                    },
-                    {
-                        "name": "シナリオコード5",
-                        "source_uuid": "7bd97641-3117-4beb-b19a-512a27774d37",
-                        "visible": true,
-                        "locked": false,
-                        "rot": 0.0,
-                        "scale_ref": {
-                            "x": 1920.0,
-                            "y": 1080.0
-                        },
-                        "align": 5,
-                        "bounds_type": 0,
-                        "bounds_align": 0,
-                        "bounds_crop": false,
-                        "crop_left": 0,
-                        "crop_top": 0,
-                        "crop_right": 0,
-                        "crop_bottom": 0,
-                        "id": 36,
-                        "group_item_backup": false,
-                        "pos": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "pos_rel": {
-                            "x": -1.7777777910232544,
-                            "y": -1.0
-                        },
-                        "scale": {
-                            "x": 0.180630624294281,
-                            "y": 0.1796875
-                        },
-                        "scale_rel": {
-                            "x": 0.180630624294281,
-                            "y": 0.1796875
-                        },
-                        "bounds": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "bounds_rel": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "scale_filter": "disable",
-                        "blend_method": "default",
-                        "blend_type": "normal",
-                        "show_transition": {
-                            "duration": 0
-                        },
-                        "hide_transition": {
-                            "duration": 0
-                        },
-                        "private_settings": {}
-                    }
-                ]
-            },
-            "mixers": 0,
-            "sync": 0,
-            "flags": 0,
-            "volume": 1.0,
-            "balance": 0.5,
-            "enabled": true,
-            "muted": false,
-            "push-to-mute": false,
-            "push-to-mute-delay": 0,
-            "push-to-talk": false,
-            "push-to-talk-delay": 0,
-            "hotkeys": {
-                "libobs.show_scene_item.42": [],
-                "libobs.hide_scene_item.42": [],
-                "libobs.show_scene_item.36": [],
-                "libobs.hide_scene_item.36": []
-            },
-            "deinterlace_mode": 0,
-            "deinterlace_field_order": 0,
-            "monitoring_type": 0,
-            "canvas_uuid": "6c69626f-6273-4c00-9d88-c5136d61696e",
-            "private_settings": {}
-        },
-        {
-            "prev_ver": 536870914,
-            "name": "シナリオ 6",
-            "uuid": "4a8c35a3-7122-430f-b484-5321019c5f8c",
-            "id": "group",
-            "versioned_id": "group",
-            "settings": {
-                "id_counter": 2,
-                "custom_size": true,
-                "cx": 466,
-                "cy": 95,
-                "items": [
-                    {
-                        "name": "コメント 6",
-                        "source_uuid": "ddd763ec-0cab-4cfd-b159-38750244e4a6",
-                        "visible": true,
-                        "locked": false,
-                        "rot": 0.0,
-                        "scale_ref": {
-                            "x": 1920.0,
-                            "y": 1080.0
-                        },
-                        "align": 5,
-                        "bounds_type": 0,
-                        "bounds_align": 0,
-                        "bounds_crop": false,
-                        "crop_left": 0,
-                        "crop_top": 0,
-                        "crop_right": 0,
-                        "crop_bottom": 0,
-                        "id": 43,
-                        "group_item_backup": false,
-                        "pos": {
-                            "x": 9.0,
-                            "y": 48.0
-                        },
-                        "pos_rel": {
-                            "x": -1.7611111402511597,
-                            "y": -0.9111111164093018
-                        },
-                        "scale": {
-                            "x": 0.1827586144208908,
-                            "y": 0.18359375
-                        },
-                        "scale_rel": {
-                            "x": 0.1827586144208908,
-                            "y": 0.18359375
-                        },
-                        "bounds": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "bounds_rel": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "scale_filter": "disable",
-                        "blend_method": "default",
-                        "blend_type": "normal",
-                        "show_transition": {
-                            "duration": 0
-                        },
-                        "hide_transition": {
-                            "duration": 0
-                        },
-                        "private_settings": {}
-                    },
-                    {
-                        "name": "シナリオコード6",
-                        "source_uuid": "26b54a8f-0593-4acb-8ead-5f80824b0cb9",
-                        "visible": true,
-                        "locked": false,
-                        "rot": 0.0,
-                        "scale_ref": {
-                            "x": 1920.0,
-                            "y": 1080.0
-                        },
-                        "align": 5,
-                        "bounds_type": 0,
-                        "bounds_align": 0,
-                        "bounds_crop": false,
-                        "crop_left": 0,
-                        "crop_top": 0,
-                        "crop_right": 0,
-                        "crop_bottom": 0,
-                        "id": 37,
-                        "group_item_backup": false,
-                        "pos": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "pos_rel": {
-                            "x": -1.7777777910232544,
-                            "y": -1.0
-                        },
-                        "scale": {
-                            "x": 0.180630624294281,
-                            "y": 0.1796875
-                        },
-                        "scale_rel": {
-                            "x": 0.180630624294281,
-                            "y": 0.1796875
-                        },
-                        "bounds": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "bounds_rel": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "scale_filter": "disable",
-                        "blend_method": "default",
-                        "blend_type": "normal",
-                        "show_transition": {
-                            "duration": 0
-                        },
-                        "hide_transition": {
-                            "duration": 0
-                        },
-                        "private_settings": {}
-                    }
-                ]
-            },
-            "mixers": 0,
-            "sync": 0,
-            "flags": 0,
-            "volume": 1.0,
-            "balance": 0.5,
-            "enabled": true,
-            "muted": false,
-            "push-to-mute": false,
-            "push-to-mute-delay": 0,
-            "push-to-talk": false,
-            "push-to-talk-delay": 0,
-            "hotkeys": {
-                "libobs.show_scene_item.43": [],
-                "libobs.hide_scene_item.43": [],
-                "libobs.show_scene_item.37": [],
-                "libobs.hide_scene_item.37": []
-            },
-            "deinterlace_mode": 0,
-            "deinterlace_field_order": 0,
-            "monitoring_type": 0,
-            "canvas_uuid": "6c69626f-6273-4c00-9d88-c5136d61696e",
-            "private_settings": {}
-        },
-        {
-            "prev_ver": 536870914,
-            "name": "シナリオ 7",
-            "uuid": "67307849-b216-4ffe-8c2b-42792b9cec05",
-            "id": "group",
-            "versioned_id": "group",
-            "settings": {
-                "id_counter": 2,
-                "custom_size": true,
-                "cx": 490,
-                "cy": 94,
-                "items": [
-                    {
-                        "name": "コメント 7",
-                        "source_uuid": "348677db-c1cc-4dbc-a3e7-afd9c58b57c5",
-                        "visible": true,
-                        "locked": false,
-                        "rot": 0.0,
-                        "scale_ref": {
-                            "x": 1920.0,
-                            "y": 1080.0
-                        },
-                        "align": 5,
-                        "bounds_type": 0,
-                        "bounds_align": 0,
-                        "bounds_crop": false,
-                        "crop_left": 0,
-                        "crop_top": 0,
-                        "crop_right": 0,
-                        "crop_bottom": 0,
-                        "id": 44,
-                        "group_item_backup": false,
-                        "pos": {
-                            "x": 14.0,
-                            "y": 52.00006103515625
-                        },
-                        "pos_rel": {
-                            "x": -1.7518517971038818,
-                            "y": -0.9037035703659058
-                        },
-                        "scale": {
-                            "x": 0.16048550605773926,
-                            "y": 0.16015625
-                        },
-                        "scale_rel": {
-                            "x": 0.16048550605773926,
-                            "y": 0.16015625
-                        },
-                        "bounds": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "bounds_rel": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "scale_filter": "disable",
-                        "blend_method": "default",
-                        "blend_type": "normal",
-                        "show_transition": {
-                            "duration": 0
-                        },
-                        "hide_transition": {
-                            "duration": 0
-                        },
-                        "private_settings": {}
-                    },
-                    {
-                        "name": "シナリオコード7",
-                        "source_uuid": "3b837f02-b582-4729-b02d-05482bf07852",
-                        "visible": true,
-                        "locked": false,
-                        "rot": 0.0,
-                        "scale_ref": {
-                            "x": 1920.0,
-                            "y": 1080.0
-                        },
-                        "align": 5,
-                        "bounds_type": 0,
-                        "bounds_align": 0,
-                        "bounds_crop": false,
-                        "crop_left": 0,
-                        "crop_top": 0,
-                        "crop_right": 0,
-                        "crop_bottom": 0,
-                        "id": 38,
-                        "group_item_backup": false,
-                        "pos": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "pos_rel": {
-                            "x": -1.7777777910232544,
-                            "y": -1.0
-                        },
-                        "scale": {
-                            "x": 0.180630624294281,
-                            "y": 0.1796875
-                        },
-                        "scale_rel": {
-                            "x": 0.180630624294281,
-                            "y": 0.1796875
-                        },
-                        "bounds": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "bounds_rel": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "scale_filter": "disable",
-                        "blend_method": "default",
-                        "blend_type": "normal",
-                        "show_transition": {
-                            "duration": 0
-                        },
-                        "hide_transition": {
-                            "duration": 0
-                        },
-                        "private_settings": {}
-                    }
-                ]
-            },
-            "mixers": 0,
-            "sync": 0,
-            "flags": 0,
-            "volume": 1.0,
-            "balance": 0.5,
-            "enabled": true,
-            "muted": false,
-            "push-to-mute": false,
-            "push-to-mute-delay": 0,
-            "push-to-talk": false,
-            "push-to-talk-delay": 0,
-            "hotkeys": {
-                "libobs.show_scene_item.44": [],
-                "libobs.hide_scene_item.44": [],
-                "libobs.show_scene_item.38": [],
-                "libobs.hide_scene_item.38": []
-            },
-            "deinterlace_mode": 0,
-            "deinterlace_field_order": 0,
-            "monitoring_type": 0,
-            "canvas_uuid": "6c69626f-6273-4c00-9d88-c5136d61696e",
-            "private_settings": {}
-        },
-        {
-            "prev_ver": 536870914,
-            "name": "シナリオ1",
-            "uuid": "bbc3cd25-0ab1-40b3-a0be-4408ba8265de",
-            "id": "group",
-            "versioned_id": "group",
-            "settings": {
-                "id_counter": 0,
-                "custom_size": true,
-                "cx": 491,
-                "cy": 91,
-                "items": [
-                    {
-                        "name": "コメント",
-                        "source_uuid": "19bda7a7-f74c-41d2-bc43-bab767a28d8a",
-                        "visible": true,
-                        "locked": false,
-                        "rot": 0.0,
-                        "scale_ref": {
-                            "x": 1920.0,
-                            "y": 1080.0
-                        },
-                        "align": 5,
-                        "bounds_type": 0,
-                        "bounds_align": 0,
-                        "bounds_crop": false,
-                        "crop_left": 0,
-                        "crop_top": 0,
-                        "crop_right": 0,
-                        "crop_bottom": 0,
-                        "id": 20,
-                        "group_item_backup": false,
-                        "pos": {
-                            "x": 0.0,
-                            "y": 52.0
-                        },
-                        "pos_rel": {
-                            "x": -1.7777777910232544,
-                            "y": -0.9037036895751953
-                        },
-                        "scale": {
-                            "x": 0.14415736496448517,
-                            "y": 0.14453125
-                        },
-                        "scale_rel": {
-                            "x": 0.14415736496448517,
-                            "y": 0.14453125
-                        },
-                        "bounds": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "bounds_rel": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "scale_filter": "disable",
-                        "blend_method": "default",
-                        "blend_type": "normal",
-                        "show_transition": {
-                            "duration": 0
-                        },
-                        "hide_transition": {
-                            "duration": 0
-                        },
-                        "private_settings": {}
-                    },
-                    {
-                        "name": "シナリオコード1",
-                        "source_uuid": "6809cbec-3f80-46f6-b3be-4df8e593ff94",
-                        "visible": true,
-                        "locked": false,
-                        "rot": 0.0,
-                        "scale_ref": {
-                            "x": 1920.0,
-                            "y": 1080.0
-                        },
-                        "align": 5,
-                        "bounds_type": 0,
-                        "bounds_align": 0,
-                        "bounds_crop": false,
-                        "crop_left": 0,
-                        "crop_top": 0,
-                        "crop_right": 0,
-                        "crop_bottom": 0,
-                        "id": 19,
-                        "group_item_backup": false,
-                        "pos": {
-                            "x": 2.0,
-                            "y": 0.0
-                        },
-                        "pos_rel": {
-                            "x": -1.7740740776062012,
-                            "y": -1.0
-                        },
-                        "scale": {
-                            "x": 0.17736487090587616,
-                            "y": 0.17578125
-                        },
-                        "scale_rel": {
-                            "x": 0.17736487090587616,
-                            "y": 0.17578125
-                        },
-                        "bounds": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "bounds_rel": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "scale_filter": "disable",
-                        "blend_method": "default",
-                        "blend_type": "normal",
-                        "show_transition": {
-                            "duration": 0
-                        },
-                        "hide_transition": {
-                            "duration": 0
-                        },
-                        "private_settings": {}
-                    }
-                ]
-            },
-            "mixers": 0,
-            "sync": 0,
-            "flags": 0,
-            "volume": 1.0,
-            "balance": 0.5,
-            "enabled": true,
-            "muted": false,
-            "push-to-mute": false,
-            "push-to-mute-delay": 0,
-            "push-to-talk": false,
-            "push-to-talk-delay": 0,
-            "hotkeys": {
-                "libobs.show_scene_item.20": [],
-                "libobs.hide_scene_item.20": [],
-                "libobs.show_scene_item.19": [],
-                "libobs.hide_scene_item.19": []
-            },
-            "deinterlace_mode": 0,
-            "deinterlace_field_order": 0,
-            "monitoring_type": 0,
-            "canvas_uuid": "6c69626f-6273-4c00-9d88-c5136d61696e",
-            "private_settings": {}
-        },
-        {
-            "prev_ver": 536870914,
-            "name": "シナリオ8",
-            "uuid": "a5fdb91b-5c2e-46cc-9854-7e8b2b4be27a",
-            "id": "group",
-            "versioned_id": "group",
-            "settings": {
-                "id_counter": 0,
-                "custom_size": true,
-                "cx": 427,
-                "cy": 93,
-                "items": [
-                    {
-                        "name": "コメント 8",
-                        "source_uuid": "c4818cb6-a7ba-4f3d-b95e-542427c157f3",
-                        "visible": true,
-                        "locked": false,
-                        "rot": 0.0,
-                        "scale_ref": {
-                            "x": 1920.0,
-                            "y": 1080.0
-                        },
-                        "align": 5,
-                        "bounds_type": 0,
-                        "bounds_align": 0,
-                        "bounds_crop": false,
-                        "crop_left": 0,
-                        "crop_top": 0,
-                        "crop_right": 0,
-                        "crop_bottom": 0,
-                        "id": 45,
-                        "group_item_backup": false,
-                        "pos": {
-                            "x": 150.0,
-                            "y": 43.359375
-                        },
-                        "pos_rel": {
-                            "x": -1.5,
-                            "y": -0.9197048544883728
-                        },
-                        "scale": {
-                            "x": 0.18333333730697632,
-                            "y": 0.18359375
-                        },
-                        "scale_rel": {
-                            "x": 0.18333333730697632,
-                            "y": 0.18359375
-                        },
-                        "bounds": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "bounds_rel": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "scale_filter": "disable",
-                        "blend_method": "default",
-                        "blend_type": "normal",
-                        "show_transition": {
-                            "duration": 0
-                        },
-                        "hide_transition": {
-                            "duration": 0
-                        },
-                        "private_settings": {}
-                    },
-                    {
-                        "name": "シナリオコード8",
-                        "source_uuid": "8801072e-3f09-4f90-a8e9-d271bb60ffd5",
-                        "visible": true,
-                        "locked": false,
-                        "rot": 0.0,
-                        "scale_ref": {
-                            "x": 1920.0,
-                            "y": 1080.0
-                        },
-                        "align": 5,
-                        "bounds_type": 0,
-                        "bounds_align": 0,
-                        "bounds_crop": false,
-                        "crop_left": 0,
-                        "crop_top": 0,
-                        "crop_right": 0,
-                        "crop_bottom": 0,
-                        "id": 48,
-                        "group_item_backup": false,
-                        "pos": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "pos_rel": {
-                            "x": -1.7777777910232544,
-                            "y": -1.0
-                        },
-                        "scale": {
-                            "x": 0.180630624294281,
-                            "y": 0.1796875
-                        },
-                        "scale_rel": {
-                            "x": 0.180630624294281,
-                            "y": 0.1796875
-                        },
-                        "bounds": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "bounds_rel": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "scale_filter": "disable",
-                        "blend_method": "default",
-                        "blend_type": "normal",
-                        "show_transition": {
-                            "duration": 0
-                        },
-                        "hide_transition": {
-                            "duration": 0
-                        },
-                        "private_settings": {}
-                    }
-                ]
-            },
-            "mixers": 0,
-            "sync": 0,
-            "flags": 0,
-            "volume": 1.0,
-            "balance": 0.5,
-            "enabled": true,
-            "muted": false,
-            "push-to-mute": false,
-            "push-to-mute-delay": 0,
-            "push-to-talk": false,
-            "push-to-talk-delay": 0,
-            "hotkeys": {
-                "libobs.show_scene_item.45": [],
-                "libobs.hide_scene_item.45": [],
-                "libobs.show_scene_item.48": [],
-                "libobs.hide_scene_item.48": []
-            },
-            "deinterlace_mode": 0,
-            "deinterlace_field_order": 0,
-            "monitoring_type": 0,
-            "canvas_uuid": "6c69626f-6273-4c00-9d88-c5136d61696e",
-            "private_settings": {}
-        },
-        {
-            "prev_ver": 536870914,
-            "name": "シナリオ9",
-            "uuid": "06a0f57f-67c8-4733-9db1-ad1dc73b037c",
-            "id": "group",
-            "versioned_id": "group",
-            "settings": {
-                "id_counter": 0,
-                "custom_size": true,
-                "cx": 392,
-                "cy": 93,
-                "items": [
-                    {
-                        "name": "コメント 9",
-                        "source_uuid": "cc49ce9b-2b08-49c7-b67c-deeca84776ea",
-                        "visible": true,
-                        "locked": false,
-                        "rot": 0.0,
-                        "scale_ref": {
-                            "x": 1920.0,
-                            "y": 1080.0
-                        },
-                        "align": 5,
-                        "bounds_type": 0,
-                        "bounds_align": 0,
-                        "bounds_crop": false,
-                        "crop_left": 0,
-                        "crop_top": 0,
-                        "crop_right": 0,
-                        "crop_bottom": 0,
-                        "id": 46,
-                        "group_item_backup": false,
-                        "pos": {
-                            "x": 123.0,
-                            "y": 40.0
-                        },
-                        "pos_rel": {
-                            "x": -1.5499999523162842,
-                            "y": -0.9259259104728699
-                        },
-                        "scale": {
-                            "x": 0.17596282064914703,
-                            "y": 0.17578125
-                        },
-                        "scale_rel": {
-                            "x": 0.17596282064914703,
-                            "y": 0.17578125
-                        },
-                        "bounds": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "bounds_rel": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "scale_filter": "disable",
-                        "blend_method": "default",
-                        "blend_type": "normal",
-                        "show_transition": {
-                            "duration": 0
-                        },
-                        "hide_transition": {
-                            "duration": 0
-                        },
-                        "private_settings": {}
-                    },
-                    {
-                        "name": "シナリオコード9",
-                        "source_uuid": "9ae22ae5-4b66-44cf-9fdd-d00343efe855",
-                        "visible": true,
-                        "locked": false,
-                        "rot": 0.0,
-                        "scale_ref": {
-                            "x": 1920.0,
-                            "y": 1080.0
-                        },
-                        "align": 5,
-                        "bounds_type": 0,
-                        "bounds_align": 0,
-                        "bounds_crop": false,
-                        "crop_left": 0,
-                        "crop_top": 0,
-                        "crop_right": 0,
-                        "crop_bottom": 0,
-                        "id": 49,
-                        "group_item_backup": false,
-                        "pos": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "pos_rel": {
-                            "x": -1.7777777910232544,
-                            "y": -1.0
-                        },
-                        "scale": {
-                            "x": 0.180630624294281,
-                            "y": 0.1796875
-                        },
-                        "scale_rel": {
-                            "x": 0.180630624294281,
-                            "y": 0.1796875
-                        },
-                        "bounds": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "bounds_rel": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "scale_filter": "disable",
-                        "blend_method": "default",
-                        "blend_type": "normal",
-                        "show_transition": {
-                            "duration": 0
-                        },
-                        "hide_transition": {
-                            "duration": 0
-                        },
-                        "private_settings": {}
-                    }
-                ]
-            },
-            "mixers": 0,
-            "sync": 0,
-            "flags": 0,
-            "volume": 1.0,
-            "balance": 0.5,
-            "enabled": true,
-            "muted": false,
-            "push-to-mute": false,
-            "push-to-mute-delay": 0,
-            "push-to-talk": false,
-            "push-to-talk-delay": 0,
-            "hotkeys": {
-                "libobs.show_scene_item.46": [],
-                "libobs.hide_scene_item.46": [],
-                "libobs.show_scene_item.49": [],
-                "libobs.hide_scene_item.49": []
-            },
-            "deinterlace_mode": 0,
-            "deinterlace_field_order": 0,
-            "monitoring_type": 0,
-            "canvas_uuid": "6c69626f-6273-4c00-9d88-c5136d61696e",
-            "private_settings": {}
-        },
-        {
-            "prev_ver": 536870914,
-            "name": "シナリオ10",
-            "uuid": "79474ae4-e842-4d2d-8d86-8255dee2f8ce",
-            "id": "group",
-            "versioned_id": "group",
-            "settings": {
-                "id_counter": 0,
-                "custom_size": true,
-                "cx": 409,
-                "cy": 97,
-                "items": [
-                    {
-                        "name": "コメント 10",
-                        "source_uuid": "b0a7f8dd-f426-48ae-9f1f-451e620f9448",
-                        "visible": true,
-                        "locked": false,
-                        "rot": 0.0,
-                        "scale_ref": {
-                            "x": 1920.0,
-                            "y": 1080.0
-                        },
-                        "align": 5,
-                        "bounds_type": 0,
-                        "bounds_align": 0,
-                        "bounds_crop": false,
-                        "crop_left": 0,
-                        "crop_top": 0,
-                        "crop_right": 0,
-                        "crop_bottom": 0,
-                        "id": 47,
-                        "group_item_backup": false,
-                        "pos": {
-                            "x": 147.0,
-                            "y": 52.0
-                        },
-                        "pos_rel": {
-                            "x": -1.505555510520935,
-                            "y": -0.9037036895751953
-                        },
-                        "scale": {
-                            "x": 0.17391304671764374,
-                            "y": 0.17315174639225006
-                        },
-                        "scale_rel": {
-                            "x": 0.17391304671764374,
-                            "y": 0.17315174639225006
-                        },
-                        "bounds": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "bounds_rel": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "scale_filter": "disable",
-                        "blend_method": "default",
-                        "blend_type": "normal",
-                        "show_transition": {
-                            "duration": 0
-                        },
-                        "hide_transition": {
-                            "duration": 0
-                        },
-                        "private_settings": {}
-                    },
-                    {
-                        "name": "シナリオコード10",
-                        "source_uuid": "7d2e422e-ce05-47b4-9a68-1dd058b46dd1",
-                        "visible": true,
-                        "locked": false,
-                        "rot": 0.0,
-                        "scale_ref": {
-                            "x": 1920.0,
-                            "y": 1080.0
-                        },
-                        "align": 5,
-                        "bounds_type": 0,
-                        "bounds_align": 0,
-                        "bounds_crop": false,
-                        "crop_left": 0,
-                        "crop_top": 0,
-                        "crop_right": 0,
-                        "crop_bottom": 0,
-                        "id": 50,
-                        "group_item_backup": false,
-                        "pos": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "pos_rel": {
-                            "x": -1.7777777910232544,
-                            "y": -1.0
-                        },
-                        "scale": {
-                            "x": 0.180630624294281,
-                            "y": 0.1796875
-                        },
-                        "scale_rel": {
-                            "x": 0.180630624294281,
-                            "y": 0.1796875
-                        },
-                        "bounds": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "bounds_rel": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "scale_filter": "disable",
-                        "blend_method": "default",
-                        "blend_type": "normal",
-                        "show_transition": {
-                            "duration": 0
-                        },
-                        "hide_transition": {
-                            "duration": 0
-                        },
-                        "private_settings": {}
-                    }
-                ]
-            },
-            "mixers": 0,
-            "sync": 0,
-            "flags": 0,
-            "volume": 1.0,
-            "balance": 0.5,
-            "enabled": true,
-            "muted": false,
-            "push-to-mute": false,
-            "push-to-mute-delay": 0,
-            "push-to-talk": false,
-            "push-to-talk-delay": 0,
-            "hotkeys": {
-                "libobs.show_scene_item.47": [],
-                "libobs.hide_scene_item.47": [],
-                "libobs.show_scene_item.50": [],
-                "libobs.hide_scene_item.50": []
-            },
-            "deinterlace_mode": 0,
-            "deinterlace_field_order": 0,
-            "monitoring_type": 0,
-            "canvas_uuid": "6c69626f-6273-4c00-9d88-c5136d61696e",
-            "private_settings": {}
-        },
-        {
-            "prev_ver": 536870914,
-            "name": "シナリオ 11",
-            "uuid": "0811edb1-492a-4081-a761-564fbc6927d4",
-            "id": "group",
-            "versioned_id": "group",
-            "settings": {
-                "id_counter": 0,
-                "custom_size": true,
-                "cx": 406,
-                "cy": 101,
-                "items": [
-                    {
-                        "name": "コメント 11",
-                        "source_uuid": "b27d7a02-0745-4fa0-8e8b-7fa72e2483ba",
-                        "visible": true,
-                        "locked": false,
-                        "rot": 0.0,
-                        "scale_ref": {
-                            "x": 1920.0,
-                            "y": 1080.0
-                        },
-                        "align": 5,
-                        "bounds_type": 0,
-                        "bounds_align": 0,
-                        "bounds_crop": false,
-                        "crop_left": 0,
-                        "crop_top": 0,
-                        "crop_right": 0,
-                        "crop_bottom": 0,
-                        "id": 57,
-                        "group_item_backup": false,
-                        "pos": {
-                            "x": 154.0,
-                            "y": 59.0
-                        },
-                        "pos_rel": {
-                            "x": -1.4925925731658936,
-                            "y": -0.8907407522201538
-                        },
-                        "scale": {
-                            "x": 0.16486486792564392,
-                            "y": 0.1640625
-                        },
-                        "scale_rel": {
-                            "x": 0.16486486792564392,
-                            "y": 0.1640625
-                        },
-                        "bounds": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "bounds_rel": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "scale_filter": "disable",
-                        "blend_method": "default",
-                        "blend_type": "normal",
-                        "show_transition": {
-                            "duration": 0
-                        },
-                        "hide_transition": {
-                            "duration": 0
-                        },
-                        "private_settings": {}
-                    },
-                    {
-                        "name": "シナリオコード11",
-                        "source_uuid": "617542eb-924b-4203-a20c-8c856db5de47",
-                        "visible": true,
-                        "locked": false,
-                        "rot": 0.0,
-                        "scale_ref": {
-                            "x": 1920.0,
-                            "y": 1080.0
-                        },
-                        "align": 5,
-                        "bounds_type": 0,
-                        "bounds_align": 0,
-                        "bounds_crop": false,
-                        "crop_left": 0,
-                        "crop_top": 0,
-                        "crop_right": 0,
-                        "crop_bottom": 0,
-                        "id": 55,
-                        "group_item_backup": false,
-                        "pos": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "pos_rel": {
-                            "x": -1.7777777910232544,
-                            "y": -1.0
-                        },
-                        "scale": {
-                            "x": 0.180630624294281,
-                            "y": 0.1796875
-                        },
-                        "scale_rel": {
-                            "x": 0.180630624294281,
-                            "y": 0.1796875
-                        },
-                        "bounds": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "bounds_rel": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "scale_filter": "disable",
-                        "blend_method": "default",
-                        "blend_type": "normal",
-                        "show_transition": {
-                            "duration": 0
-                        },
-                        "hide_transition": {
-                            "duration": 0
-                        },
-                        "private_settings": {}
-                    }
-                ]
-            },
-            "mixers": 0,
-            "sync": 0,
-            "flags": 0,
-            "volume": 1.0,
-            "balance": 0.5,
-            "enabled": true,
-            "muted": false,
-            "push-to-mute": false,
-            "push-to-mute-delay": 0,
-            "push-to-talk": false,
-            "push-to-talk-delay": 0,
-            "hotkeys": {
-                "libobs.show_scene_item.57": [],
-                "libobs.hide_scene_item.57": [],
-                "libobs.show_scene_item.55": [],
-                "libobs.hide_scene_item.55": []
-            },
-            "deinterlace_mode": 0,
-            "deinterlace_field_order": 0,
-            "monitoring_type": 0,
-            "canvas_uuid": "6c69626f-6273-4c00-9d88-c5136d61696e",
-            "private_settings": {}
-        },
-        {
-            "prev_ver": 536870914,
-            "name": "シナリオ 12",
-            "uuid": "e0b227d1-2f19-4bcf-b81a-e646511190ea",
-            "id": "group",
-            "versioned_id": "group",
-            "settings": {
-                "id_counter": 0,
-                "custom_size": true,
-                "cx": 409,
-                "cy": 91,
-                "items": [
-                    {
-                        "name": "コメント 12",
-                        "source_uuid": "56b35cf1-eb62-4db6-a82f-7fb5251a1236",
-                        "visible": true,
-                        "locked": false,
-                        "rot": 0.0,
-                        "scale_ref": {
-                            "x": 1920.0,
-                            "y": 1080.0
-                        },
-                        "align": 5,
-                        "bounds_type": 0,
-                        "bounds_align": 0,
-                        "bounds_crop": false,
-                        "crop_left": 0,
-                        "crop_top": 0,
-                        "crop_right": 0,
-                        "crop_bottom": 0,
-                        "id": 56,
-                        "group_item_backup": false,
-                        "pos": {
-                            "x": 277.0,
-                            "y": 49.0
-                        },
-                        "pos_rel": {
-                            "x": -1.264814853668213,
-                            "y": -0.9092592597007751
-                        },
-                        "scale": {
-                            "x": 0.16486486792564392,
-                            "y": 0.1640625
-                        },
-                        "scale_rel": {
-                            "x": 0.16486486792564392,
-                            "y": 0.1640625
-                        },
-                        "bounds": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "bounds_rel": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "scale_filter": "disable",
-                        "blend_method": "default",
-                        "blend_type": "normal",
-                        "show_transition": {
-                            "duration": 0
-                        },
-                        "hide_transition": {
-                            "duration": 0
-                        },
-                        "private_settings": {}
-                    },
-                    {
-                        "name": "シナリオコード12",
-                        "source_uuid": "f165ae39-0a5f-4e47-986f-38a6ecb80fef",
-                        "visible": true,
-                        "locked": false,
-                        "rot": 0.0,
-                        "scale_ref": {
-                            "x": 1920.0,
-                            "y": 1080.0
-                        },
-                        "align": 5,
-                        "bounds_type": 0,
-                        "bounds_align": 0,
-                        "bounds_crop": false,
-                        "crop_left": 0,
-                        "crop_top": 0,
-                        "crop_right": 0,
-                        "crop_bottom": 0,
-                        "id": 54,
-                        "group_item_backup": false,
-                        "pos": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "pos_rel": {
-                            "x": -1.7777777910232544,
-                            "y": -1.0
-                        },
-                        "scale": {
-                            "x": 0.180630624294281,
-                            "y": 0.1796875
-                        },
-                        "scale_rel": {
-                            "x": 0.180630624294281,
-                            "y": 0.1796875
-                        },
-                        "bounds": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "bounds_rel": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "scale_filter": "disable",
-                        "blend_method": "default",
-                        "blend_type": "normal",
-                        "show_transition": {
-                            "duration": 0
-                        },
-                        "hide_transition": {
-                            "duration": 0
-                        },
-                        "private_settings": {}
-                    }
-                ]
-            },
-            "mixers": 0,
-            "sync": 0,
-            "flags": 0,
-            "volume": 1.0,
-            "balance": 0.5,
-            "enabled": true,
-            "muted": false,
-            "push-to-mute": false,
-            "push-to-mute-delay": 0,
-            "push-to-talk": false,
-            "push-to-talk-delay": 0,
-            "hotkeys": {
-                "libobs.show_scene_item.56": [],
-                "libobs.hide_scene_item.56": [],
-                "libobs.show_scene_item.54": [],
-                "libobs.hide_scene_item.54": []
             },
             "deinterlace_mode": 0,
             "deinterlace_field_order": 0,
@@ -54402,888 +51473,6 @@
                 "libobs.hide_scene_item.20": [],
                 "libobs.show_scene_item.21": [],
                 "libobs.hide_scene_item.21": []
-            },
-            "deinterlace_mode": 0,
-            "deinterlace_field_order": 0,
-            "monitoring_type": 0,
-            "canvas_uuid": "6c69626f-6273-4c00-9d88-c5136d61696e",
-            "private_settings": {}
-        },
-        {
-            "prev_ver": 536870914,
-            "name": "シナリオ13",
-            "uuid": "f988e1ac-0b11-4ae6-acc4-094095684b7d",
-            "id": "group",
-            "versioned_id": "group",
-            "settings": {
-                "id_counter": 0,
-                "custom_size": true,
-                "cx": 408,
-                "cy": 87,
-                "items": [
-                    {
-                        "name": "コメント 13",
-                        "source_uuid": "f458c35d-f1ca-47b2-a29c-cc06580d380c",
-                        "visible": true,
-                        "locked": false,
-                        "rot": 0.0,
-                        "scale_ref": {
-                            "x": 1920.0,
-                            "y": 1080.0
-                        },
-                        "align": 5,
-                        "bounds_type": 0,
-                        "bounds_align": 0,
-                        "bounds_crop": false,
-                        "crop_left": 0,
-                        "crop_top": 0,
-                        "crop_right": 0,
-                        "crop_bottom": 0,
-                        "id": 69,
-                        "group_item_backup": false,
-                        "pos": {
-                            "x": 254.6165771484375,
-                            "y": 45.0
-                        },
-                        "pos_rel": {
-                            "x": -1.3062655925750732,
-                            "y": -0.9166666865348816
-                        },
-                        "scale": {
-                            "x": 0.16486486792564392,
-                            "y": 0.1640625
-                        },
-                        "scale_rel": {
-                            "x": 0.16486486792564392,
-                            "y": 0.1640625
-                        },
-                        "bounds": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "bounds_rel": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "scale_filter": "disable",
-                        "blend_method": "default",
-                        "blend_type": "normal",
-                        "show_transition": {
-                            "duration": 0
-                        },
-                        "hide_transition": {
-                            "duration": 0
-                        },
-                        "private_settings": {}
-                    },
-                    {
-                        "name": "シナリオコード13",
-                        "source_uuid": "06f44495-1c93-4161-819e-8bf5aab28ba2",
-                        "visible": true,
-                        "locked": false,
-                        "rot": 0.0,
-                        "scale_ref": {
-                            "x": 1920.0,
-                            "y": 1080.0
-                        },
-                        "align": 5,
-                        "bounds_type": 0,
-                        "bounds_align": 0,
-                        "bounds_crop": false,
-                        "crop_left": 0,
-                        "crop_top": 0,
-                        "crop_right": 0,
-                        "crop_bottom": 0,
-                        "id": 65,
-                        "group_item_backup": false,
-                        "pos": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "pos_rel": {
-                            "x": -1.7777777910232544,
-                            "y": -1.0
-                        },
-                        "scale": {
-                            "x": 0.180630624294281,
-                            "y": 0.1796875
-                        },
-                        "scale_rel": {
-                            "x": 0.180630624294281,
-                            "y": 0.1796875
-                        },
-                        "bounds": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "bounds_rel": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "scale_filter": "disable",
-                        "blend_method": "default",
-                        "blend_type": "normal",
-                        "show_transition": {
-                            "duration": 0
-                        },
-                        "hide_transition": {
-                            "duration": 0
-                        },
-                        "private_settings": {}
-                    }
-                ]
-            },
-            "mixers": 0,
-            "sync": 0,
-            "flags": 0,
-            "volume": 1.0,
-            "balance": 0.5,
-            "enabled": true,
-            "muted": false,
-            "push-to-mute": false,
-            "push-to-mute-delay": 0,
-            "push-to-talk": false,
-            "push-to-talk-delay": 0,
-            "hotkeys": {
-                "libobs.show_scene_item.69": [],
-                "libobs.hide_scene_item.69": [],
-                "libobs.show_scene_item.65": [],
-                "libobs.hide_scene_item.65": []
-            },
-            "deinterlace_mode": 0,
-            "deinterlace_field_order": 0,
-            "monitoring_type": 0,
-            "canvas_uuid": "6c69626f-6273-4c00-9d88-c5136d61696e",
-            "private_settings": {}
-        },
-        {
-            "prev_ver": 536870914,
-            "name": "シナリオ14",
-            "uuid": "a48a5339-a78c-43d9-ab14-094c15a79a43",
-            "id": "group",
-            "versioned_id": "group",
-            "settings": {
-                "id_counter": 0,
-                "custom_size": true,
-                "cx": 411,
-                "cy": 91,
-                "items": [
-                    {
-                        "name": "コメント 14",
-                        "source_uuid": "c92cb3e6-ddba-43a5-b1c1-9cb96bff5c25",
-                        "visible": true,
-                        "locked": false,
-                        "rot": 0.0,
-                        "scale_ref": {
-                            "x": 1920.0,
-                            "y": 1080.0
-                        },
-                        "align": 5,
-                        "bounds_type": 0,
-                        "bounds_align": 0,
-                        "bounds_crop": false,
-                        "crop_left": 0,
-                        "crop_top": 0,
-                        "crop_right": 0,
-                        "crop_bottom": 0,
-                        "id": 70,
-                        "group_item_backup": false,
-                        "pos": {
-                            "x": 292.0,
-                            "y": 52.0
-                        },
-                        "pos_rel": {
-                            "x": -1.2370370626449585,
-                            "y": -0.9037036895751953
-                        },
-                        "scale": {
-                            "x": 0.1540716588497162,
-                            "y": 0.15234375
-                        },
-                        "scale_rel": {
-                            "x": 0.1540716588497162,
-                            "y": 0.15234375
-                        },
-                        "bounds": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "bounds_rel": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "scale_filter": "disable",
-                        "blend_method": "default",
-                        "blend_type": "normal",
-                        "show_transition": {
-                            "duration": 0
-                        },
-                        "hide_transition": {
-                            "duration": 0
-                        },
-                        "private_settings": {}
-                    },
-                    {
-                        "name": "シナリオコード14",
-                        "source_uuid": "058a26ff-3f10-4a47-b1dc-f30a969cde7b",
-                        "visible": true,
-                        "locked": false,
-                        "rot": 0.0,
-                        "scale_ref": {
-                            "x": 1920.0,
-                            "y": 1080.0
-                        },
-                        "align": 5,
-                        "bounds_type": 0,
-                        "bounds_align": 0,
-                        "bounds_crop": false,
-                        "crop_left": 0,
-                        "crop_top": 0,
-                        "crop_right": 0,
-                        "crop_bottom": 0,
-                        "id": 66,
-                        "group_item_backup": false,
-                        "pos": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "pos_rel": {
-                            "x": -1.7777777910232544,
-                            "y": -1.0
-                        },
-                        "scale": {
-                            "x": 0.180630624294281,
-                            "y": 0.1796875
-                        },
-                        "scale_rel": {
-                            "x": 0.180630624294281,
-                            "y": 0.1796875
-                        },
-                        "bounds": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "bounds_rel": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "scale_filter": "disable",
-                        "blend_method": "default",
-                        "blend_type": "normal",
-                        "show_transition": {
-                            "duration": 0
-                        },
-                        "hide_transition": {
-                            "duration": 0
-                        },
-                        "private_settings": {}
-                    }
-                ]
-            },
-            "mixers": 0,
-            "sync": 0,
-            "flags": 0,
-            "volume": 1.0,
-            "balance": 0.5,
-            "enabled": true,
-            "muted": false,
-            "push-to-mute": false,
-            "push-to-mute-delay": 0,
-            "push-to-talk": false,
-            "push-to-talk-delay": 0,
-            "hotkeys": {
-                "libobs.show_scene_item.70": [],
-                "libobs.hide_scene_item.70": [],
-                "libobs.show_scene_item.66": [],
-                "libobs.hide_scene_item.66": []
-            },
-            "deinterlace_mode": 0,
-            "deinterlace_field_order": 0,
-            "monitoring_type": 0,
-            "canvas_uuid": "6c69626f-6273-4c00-9d88-c5136d61696e",
-            "private_settings": {}
-        },
-        {
-            "prev_ver": 536870914,
-            "name": "シナリオ15",
-            "uuid": "cb3d64b6-3b8e-4707-8907-28ddcbc8e8d0",
-            "id": "group",
-            "versioned_id": "group",
-            "settings": {
-                "id_counter": 0,
-                "custom_size": true,
-                "cx": 401,
-                "cy": 87,
-                "items": [
-                    {
-                        "name": "コメント 15",
-                        "source_uuid": "dfdbb71b-9fff-4d3f-8416-9a8cb76ac587",
-                        "visible": true,
-                        "locked": false,
-                        "rot": 0.0,
-                        "scale_ref": {
-                            "x": 1920.0,
-                            "y": 1080.0
-                        },
-                        "align": 5,
-                        "bounds_type": 0,
-                        "bounds_align": 0,
-                        "bounds_crop": false,
-                        "crop_left": 0,
-                        "crop_top": 0,
-                        "crop_right": 0,
-                        "crop_bottom": 0,
-                        "id": 71,
-                        "group_item_backup": false,
-                        "pos": {
-                            "x": 264.0,
-                            "y": 45.0
-                        },
-                        "pos_rel": {
-                            "x": -1.288888931274414,
-                            "y": -0.9166666865348816
-                        },
-                        "scale": {
-                            "x": 0.16486486792564392,
-                            "y": 0.1640625
-                        },
-                        "scale_rel": {
-                            "x": 0.16486486792564392,
-                            "y": 0.1640625
-                        },
-                        "bounds": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "bounds_rel": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "scale_filter": "disable",
-                        "blend_method": "default",
-                        "blend_type": "normal",
-                        "show_transition": {
-                            "duration": 0
-                        },
-                        "hide_transition": {
-                            "duration": 0
-                        },
-                        "private_settings": {}
-                    },
-                    {
-                        "name": "シナリオコード15",
-                        "source_uuid": "f77a2654-92c1-4ce6-9e44-b6c1c69b69fa",
-                        "visible": true,
-                        "locked": false,
-                        "rot": 0.0,
-                        "scale_ref": {
-                            "x": 1920.0,
-                            "y": 1080.0
-                        },
-                        "align": 5,
-                        "bounds_type": 0,
-                        "bounds_align": 0,
-                        "bounds_crop": false,
-                        "crop_left": 0,
-                        "crop_top": 0,
-                        "crop_right": 0,
-                        "crop_bottom": 0,
-                        "id": 67,
-                        "group_item_backup": false,
-                        "pos": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "pos_rel": {
-                            "x": -1.7777777910232544,
-                            "y": -1.0
-                        },
-                        "scale": {
-                            "x": 0.180630624294281,
-                            "y": 0.1796875
-                        },
-                        "scale_rel": {
-                            "x": 0.180630624294281,
-                            "y": 0.1796875
-                        },
-                        "bounds": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "bounds_rel": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "scale_filter": "disable",
-                        "blend_method": "default",
-                        "blend_type": "normal",
-                        "show_transition": {
-                            "duration": 0
-                        },
-                        "hide_transition": {
-                            "duration": 0
-                        },
-                        "private_settings": {}
-                    }
-                ]
-            },
-            "mixers": 0,
-            "sync": 0,
-            "flags": 0,
-            "volume": 1.0,
-            "balance": 0.5,
-            "enabled": true,
-            "muted": false,
-            "push-to-mute": false,
-            "push-to-mute-delay": 0,
-            "push-to-talk": false,
-            "push-to-talk-delay": 0,
-            "hotkeys": {
-                "libobs.show_scene_item.71": [],
-                "libobs.hide_scene_item.71": [],
-                "libobs.show_scene_item.67": [],
-                "libobs.hide_scene_item.67": []
-            },
-            "deinterlace_mode": 0,
-            "deinterlace_field_order": 0,
-            "monitoring_type": 0,
-            "canvas_uuid": "6c69626f-6273-4c00-9d88-c5136d61696e",
-            "private_settings": {}
-        },
-        {
-            "prev_ver": 536870914,
-            "name": "シナリオ16",
-            "uuid": "4faec55a-b4ee-4ef0-8649-82d554a0994d",
-            "id": "group",
-            "versioned_id": "group",
-            "settings": {
-                "id_counter": 0,
-                "custom_size": true,
-                "cx": 399,
-                "cy": 93,
-                "items": [
-                    {
-                        "name": "コメント 16",
-                        "source_uuid": "c13ee4ad-9b5f-405b-9588-65be6d59b0ae",
-                        "visible": true,
-                        "locked": false,
-                        "rot": 0.0,
-                        "scale_ref": {
-                            "x": 1920.0,
-                            "y": 1080.0
-                        },
-                        "align": 5,
-                        "bounds_type": 0,
-                        "bounds_align": 0,
-                        "bounds_crop": false,
-                        "crop_left": 0,
-                        "crop_top": 0,
-                        "crop_right": 0,
-                        "crop_bottom": 0,
-                        "id": 72,
-                        "group_item_backup": false,
-                        "pos": {
-                            "x": 272.0,
-                            "y": 51.0
-                        },
-                        "pos_rel": {
-                            "x": -1.2740740776062012,
-                            "y": -0.9055555462837219
-                        },
-                        "scale": {
-                            "x": 0.16486486792564392,
-                            "y": 0.1640625
-                        },
-                        "scale_rel": {
-                            "x": 0.16486486792564392,
-                            "y": 0.1640625
-                        },
-                        "bounds": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "bounds_rel": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "scale_filter": "disable",
-                        "blend_method": "default",
-                        "blend_type": "normal",
-                        "show_transition": {
-                            "duration": 0
-                        },
-                        "hide_transition": {
-                            "duration": 0
-                        },
-                        "private_settings": {}
-                    },
-                    {
-                        "name": "シナリオコード16",
-                        "source_uuid": "6245e11c-1d95-4314-8d4a-348412acb070",
-                        "visible": true,
-                        "locked": false,
-                        "rot": 0.0,
-                        "scale_ref": {
-                            "x": 1920.0,
-                            "y": 1080.0
-                        },
-                        "align": 5,
-                        "bounds_type": 0,
-                        "bounds_align": 0,
-                        "bounds_crop": false,
-                        "crop_left": 0,
-                        "crop_top": 0,
-                        "crop_right": 0,
-                        "crop_bottom": 0,
-                        "id": 68,
-                        "group_item_backup": false,
-                        "pos": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "pos_rel": {
-                            "x": -1.7777777910232544,
-                            "y": -1.0
-                        },
-                        "scale": {
-                            "x": 0.180630624294281,
-                            "y": 0.1796875
-                        },
-                        "scale_rel": {
-                            "x": 0.180630624294281,
-                            "y": 0.1796875
-                        },
-                        "bounds": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "bounds_rel": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "scale_filter": "disable",
-                        "blend_method": "default",
-                        "blend_type": "normal",
-                        "show_transition": {
-                            "duration": 0
-                        },
-                        "hide_transition": {
-                            "duration": 0
-                        },
-                        "private_settings": {}
-                    }
-                ]
-            },
-            "mixers": 0,
-            "sync": 0,
-            "flags": 0,
-            "volume": 1.0,
-            "balance": 0.5,
-            "enabled": true,
-            "muted": false,
-            "push-to-mute": false,
-            "push-to-mute-delay": 0,
-            "push-to-talk": false,
-            "push-to-talk-delay": 0,
-            "hotkeys": {
-                "libobs.show_scene_item.72": [],
-                "libobs.hide_scene_item.72": [],
-                "libobs.show_scene_item.68": [],
-                "libobs.hide_scene_item.68": []
-            },
-            "deinterlace_mode": 0,
-            "deinterlace_field_order": 0,
-            "monitoring_type": 0,
-            "canvas_uuid": "6c69626f-6273-4c00-9d88-c5136d61696e",
-            "private_settings": {}
-        },
-        {
-            "prev_ver": 536870914,
-            "name": "シナリオ17",
-            "uuid": "89025bb1-b542-4374-9930-b97e390b97c6",
-            "id": "group",
-            "versioned_id": "group",
-            "settings": {
-                "id_counter": 0,
-                "custom_size": true,
-                "cx": 399,
-                "cy": 97,
-                "items": [
-                    {
-                        "name": "コメント17",
-                        "source_uuid": "9db711c4-b7a3-4fc8-86d9-0ac9303ba819",
-                        "visible": true,
-                        "locked": false,
-                        "rot": 0.0,
-                        "scale_ref": {
-                            "x": 1920.0,
-                            "y": 1080.0
-                        },
-                        "align": 5,
-                        "bounds_type": 0,
-                        "bounds_align": 0,
-                        "bounds_crop": false,
-                        "crop_left": 0,
-                        "crop_top": 0,
-                        "crop_right": 0,
-                        "crop_bottom": 0,
-                        "id": 79,
-                        "group_item_backup": false,
-                        "pos": {
-                            "x": 272.0,
-                            "y": 54.99993896484375
-                        },
-                        "pos_rel": {
-                            "x": -1.2740740776062012,
-                            "y": -0.898148238658905
-                        },
-                        "scale": {
-                            "x": 0.16486486792564392,
-                            "y": 0.1640625
-                        },
-                        "scale_rel": {
-                            "x": 0.16486486792564392,
-                            "y": 0.1640625
-                        },
-                        "bounds": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "bounds_rel": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "scale_filter": "disable",
-                        "blend_method": "default",
-                        "blend_type": "normal",
-                        "show_transition": {
-                            "duration": 0
-                        },
-                        "hide_transition": {
-                            "duration": 0
-                        },
-                        "private_settings": {}
-                    },
-                    {
-                        "name": "シナリオコード17",
-                        "source_uuid": "f6064454-544e-4401-b908-0267b4c08767",
-                        "visible": true,
-                        "locked": false,
-                        "rot": 0.0,
-                        "scale_ref": {
-                            "x": 1920.0,
-                            "y": 1080.0
-                        },
-                        "align": 5,
-                        "bounds_type": 0,
-                        "bounds_align": 0,
-                        "bounds_crop": false,
-                        "crop_left": 0,
-                        "crop_top": 0,
-                        "crop_right": 0,
-                        "crop_bottom": 0,
-                        "id": 77,
-                        "group_item_backup": false,
-                        "pos": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "pos_rel": {
-                            "x": -1.7777777910232544,
-                            "y": -1.0
-                        },
-                        "scale": {
-                            "x": 0.180630624294281,
-                            "y": 0.1796875
-                        },
-                        "scale_rel": {
-                            "x": 0.180630624294281,
-                            "y": 0.1796875
-                        },
-                        "bounds": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "bounds_rel": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "scale_filter": "disable",
-                        "blend_method": "default",
-                        "blend_type": "normal",
-                        "show_transition": {
-                            "duration": 0
-                        },
-                        "hide_transition": {
-                            "duration": 0
-                        },
-                        "private_settings": {}
-                    }
-                ]
-            },
-            "mixers": 0,
-            "sync": 0,
-            "flags": 0,
-            "volume": 1.0,
-            "balance": 0.5,
-            "enabled": true,
-            "muted": false,
-            "push-to-mute": false,
-            "push-to-mute-delay": 0,
-            "push-to-talk": false,
-            "push-to-talk-delay": 0,
-            "hotkeys": {
-                "libobs.show_scene_item.79": [],
-                "libobs.hide_scene_item.79": [],
-                "libobs.show_scene_item.77": [],
-                "libobs.hide_scene_item.77": []
-            },
-            "deinterlace_mode": 0,
-            "deinterlace_field_order": 0,
-            "monitoring_type": 0,
-            "canvas_uuid": "6c69626f-6273-4c00-9d88-c5136d61696e",
-            "private_settings": {}
-        },
-        {
-            "prev_ver": 536870914,
-            "name": "シナリオ18",
-            "uuid": "c459ea11-42ce-467d-81e0-3c9343b83616",
-            "id": "group",
-            "versioned_id": "group",
-            "settings": {
-                "id_counter": 0,
-                "custom_size": true,
-                "cx": 421,
-                "cy": 93,
-                "items": [
-                    {
-                        "name": "コメント18",
-                        "source_uuid": "185a6cef-b205-41f1-bcca-a26b7453a22c",
-                        "visible": true,
-                        "locked": false,
-                        "rot": 0.0,
-                        "scale_ref": {
-                            "x": 1920.0,
-                            "y": 1080.0
-                        },
-                        "align": 5,
-                        "bounds_type": 0,
-                        "bounds_align": 0,
-                        "bounds_crop": false,
-                        "crop_left": 0,
-                        "crop_top": 0,
-                        "crop_right": 0,
-                        "crop_bottom": 0,
-                        "id": 80,
-                        "group_item_backup": false,
-                        "pos": {
-                            "x": 0.0,
-                            "y": 50.99993896484375
-                        },
-                        "pos_rel": {
-                            "x": -1.7777777910232544,
-                            "y": -0.9055556654930115
-                        },
-                        "scale": {
-                            "x": 0.16486486792564392,
-                            "y": 0.1640625
-                        },
-                        "scale_rel": {
-                            "x": 0.16486486792564392,
-                            "y": 0.1640625
-                        },
-                        "bounds": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "bounds_rel": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "scale_filter": "disable",
-                        "blend_method": "default",
-                        "blend_type": "normal",
-                        "show_transition": {
-                            "duration": 0
-                        },
-                        "hide_transition": {
-                            "duration": 0
-                        },
-                        "private_settings": {}
-                    },
-                    {
-                        "name": "シナリオコード18",
-                        "source_uuid": "02dd69b7-594f-450a-995b-f758d298b8f5",
-                        "visible": true,
-                        "locked": false,
-                        "rot": 0.0,
-                        "scale_ref": {
-                            "x": 1920.0,
-                            "y": 1080.0
-                        },
-                        "align": 5,
-                        "bounds_type": 0,
-                        "bounds_align": 0,
-                        "bounds_crop": false,
-                        "crop_left": 0,
-                        "crop_top": 0,
-                        "crop_right": 0,
-                        "crop_bottom": 0,
-                        "id": 78,
-                        "group_item_backup": false,
-                        "pos": {
-                            "x": 6.0,
-                            "y": 0.0
-                        },
-                        "pos_rel": {
-                            "x": -1.7666666507720947,
-                            "y": -1.0
-                        },
-                        "scale": {
-                            "x": 0.180630624294281,
-                            "y": 0.1796875
-                        },
-                        "scale_rel": {
-                            "x": 0.180630624294281,
-                            "y": 0.1796875
-                        },
-                        "bounds": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "bounds_rel": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "scale_filter": "disable",
-                        "blend_method": "default",
-                        "blend_type": "normal",
-                        "show_transition": {
-                            "duration": 0
-                        },
-                        "hide_transition": {
-                            "duration": 0
-                        },
-                        "private_settings": {}
-                    }
-                ]
-            },
-            "mixers": 0,
-            "sync": 0,
-            "flags": 0,
-            "volume": 1.0,
-            "balance": 0.5,
-            "enabled": true,
-            "muted": false,
-            "push-to-mute": false,
-            "push-to-mute-delay": 0,
-            "push-to-talk": false,
-            "push-to-talk-delay": 0,
-            "hotkeys": {
-                "libobs.show_scene_item.80": [],
-                "libobs.hide_scene_item.80": [],
-                "libobs.show_scene_item.78": [],
-                "libobs.hide_scene_item.78": []
             },
             "deinterlace_mode": 0,
             "deinterlace_field_order": 0,
